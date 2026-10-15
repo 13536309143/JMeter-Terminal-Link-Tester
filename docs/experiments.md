@@ -112,6 +112,16 @@ Get-FileHash .\jmeter-link-tester-1.0.1-windows-x64.zip -Algorithm SHA256
 Get-Content .\jmeter-link-tester-1.0.1-windows-x64.zip.sha256
 ```
 
+## 调试过程中的修正
+
+- **MQTT 订阅就绪**：独立采集器等待 SUBACK；JMeter 观察订阅也设置就绪屏障，发布端在订阅建立后开始发送，避免启动顺序引起的漏收。
+- **延迟口径**：将业务消息时间戳生成移至发送间隔之后，避免把人为设置的定时间隔计入端到端观测延迟。
+- **UDP 超时计算**：用 `TimeUnit.NANOSECONDS.toMillis` 转换剩余时间，消除 Groovy 数值类型造成的方法重载歧义，并保留明确超时边界。
+- **并发参考服务**：扩大 TCP/HTTP 回环服务的监听队列，消除 50 终端同时建连时参考服务自身造成的首请求失败；并发验收同时检查 JTL 实际活跃终端峰值。
+- **Windows 中文编码**：首轮 Windows CI 揭示测试脚本默认使用 cp1252 读取 UTF-8 报告/JMX 的问题，已将读取显式设为 UTF-8，并统一 CLI 输出。后续两版本 Python 的 Windows 源码 CI 与便携验证全部通过。
+
+正式下载的 1.0.1 Mac ARM 包还在本次部署机器上完成了相同的 5 项运行验证，[结果](evidence/downloaded-runtime-local.json)和[日志](evidence/downloaded-runtime-local.log)另存。该验证使用实际从 Release 下载并通过 SHA-256 校验的附件。
+
 ## 限制与现场实验建议
 
 当前测量没有外部网络、真实设备或生产 Broker 干扰；未进行长期稳定性、TLS、分布式压测或硬件承载极限验收。Docker 路径在本机未实跑。现场复测应固定机器与版本、隔离负载发生器和被测服务、校准时钟，逐级增加负载并保存服务端监控。跨机器 MQTT 时间戳延迟依赖时钟同步；TCP/UDP/HTTP 当前值为带处理时间的响应往返观测。负向故障属于显式参考服务实验，不应在现场误配置启用。
