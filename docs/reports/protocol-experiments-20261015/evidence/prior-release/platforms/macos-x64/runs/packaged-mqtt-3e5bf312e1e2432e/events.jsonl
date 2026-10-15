@@ -1,0 +1,5 @@
+{"time": "2026-10-15T06:49:11.150+00:00", "stage": "preparing", "detail": "run_id=3e5bf312e1e2432e"}
+{"time": "2026-10-15T06:49:11.180+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T06:49:11.195+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 6"}
+{"time": "2026-10-15T06:49:27.820+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:49:27.909+00:00", "stage": "passed", "detail": "报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-mqtt-3e5bf312e1e2432e/report.html"}

@@ -1,0 +1,137 @@
+[preparing] run_id=47b38534a2284dbe
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-baseline-47b38534a2284dbe/report.html
+[preparing] run_id=da6b7d1c24f94d4b
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 50，预期消息 1000
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-concurrent-50-da6b7d1c24f94d4b/report.html
+[preparing] run_id=13b359aed86f4108
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-invalid-payload-13b359aed86f4108/report.html
+[preparing] run_id=3b39d1a28c7a4a3e
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-collection-drop-3b39d1a28c7a4a3e/report.html
+[preparing] run_id=b14e0ae5fdd04b5d
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 2，预期消息 10
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-processing-delay-b14e0ae5fdd04b5d/report.html
+[preparing] run_id=ed46debe75884295
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-baseline-ed46debe75884295/report.html
+[preparing] run_id=9280bbce6d2e427c
+[running] 启动 JMeter，终端数 50，预期消息 1000
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-concurrent-50-9280bbce6d2e427c/report.html
+[preparing] run_id=41c094df20c842c3
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-invalid-response-41c094df20c842c3/report.html
+[preparing] run_id=fa11bec88bfb4e7b
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-wrong-message-id-fa11bec88bfb4e7b/report.html
+[preparing] run_id=cc2da8aab13743cb
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-response-loss-cc2da8aab13743cb/report.html
+[preparing] run_id=c349020838e9484b
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-processing-delay-c349020838e9484b/report.html
+[preparing] run_id=c01b43e3ccfd49e1
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-baseline-c01b43e3ccfd49e1/report.html
+[preparing] run_id=8c52eadc836143a9
+[running] 启动 JMeter，终端数 50，预期消息 1000
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-concurrent-50-8c52eadc836143a9/report.html
+[preparing] run_id=787246c5bb1148c2
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-invalid-response-787246c5bb1148c2/report.html
+[preparing] run_id=b0db0ab0d9754015
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-wrong-message-id-b0db0ab0d9754015/report.html
+[preparing] run_id=35d4e5035ecc4500
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-response-loss-35d4e5035ecc4500/report.html
+[preparing] run_id=090a3ad1f4e341c6
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-processing-delay-090a3ad1f4e341c6/report.html
+[preparing] run_id=d224060369b64f71
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-baseline-d224060369b64f71/report.html
+[preparing] run_id=21e34cbb1ca14380
+[running] 启动 JMeter，终端数 50，预期消息 1000
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-concurrent-50-21e34cbb1ca14380/report.html
+[preparing] run_id=1942cb1f8c644769
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-invalid-response-1942cb1f8c644769/report.html
+[preparing] run_id=cddce69fafad4af3
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-wrong-message-id-cddce69fafad4af3/report.html
+[preparing] run_id=8b127b121df1463e
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-response-loss-8b127b121df1463e/report.html
+[preparing] run_id=c44b5d1b83f64da8
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-processing-delay-c44b5d1b83f64da8/report.html
+[preparing] run_id=828fa38e334d4db4
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-fragmented-828fa38e334d4db4/report.html
+[preparing] run_id=961c91b0ce04440d
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-abrupt-close-961c91b0ce04440d/report.html
+[preparing] run_id=ab284b1fdc4b4886
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-duplicates-ab284b1fdc4b4886/report.html
+[preparing] run_id=ef98b9324fa942a8
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-reordered-ef98b9324fa942a8/report.html
+[preparing] run_id=4ff0a21ca43b48c0
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-large-payload-4ff0a21ca43b48c0/report.html
+[preparing] run_id=0e65d3f431994524
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-get-0e65d3f431994524/report.html
+[preparing] run_id=43074271dd35454b
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-put-43074271dd35454b/report.html
+[preparing] run_id=5c888b6d8fdc4362
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-patch-5c888b6d8fdc4362/report.html
+[preparing] run_id=4704938e3a5c430d
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-delete-4704938e3a5c430d/report.html
+[preparing] run_id=13421e0a56c846a0
+[running] 启动 JMeter，终端数 2，预期消息 12
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-error-status-13421e0a56c846a0/report.html

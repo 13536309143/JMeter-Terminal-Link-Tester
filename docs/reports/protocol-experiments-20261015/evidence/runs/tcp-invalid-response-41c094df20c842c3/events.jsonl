@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:09.425+00:00", "stage": "preparing", "detail": "run_id=41c094df20c842c3"}
+{"time": "2026-10-15T07:10:09.426+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:10:11.882+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:11.885+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-invalid-response-41c094df20c842c3/report.html"}

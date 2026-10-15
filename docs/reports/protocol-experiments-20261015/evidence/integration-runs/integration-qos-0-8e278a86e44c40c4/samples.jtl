@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792048411798,25,Observer Connect,200,Connection FuseMQTTConnection{clientId='o8e278a86e44c40c4'} established successfully.,MQTT 订阅探针 1-1,,true,,11,0,1,2,null,0,0,0
+1792048412208,2,MQTT Connect,200,Connection FuseMQTTConnection{clientId='d8e278a861'} established successfully.,参数化模拟终端 2-1,,true,,11,0,1,2,null,0,0,0
+1792048412304,2,MQTT Connect,200,Connection FuseMQTTConnection{clientId='d8e278a862'} established successfully.,参数化模拟终端 2-2,,true,,11,0,2,3,null,0,0,0
+1792048412350,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a861'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,1,0,0
+1792048412412,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a862'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,0,0,0
+1792048412457,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a861'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,0,0,0
+1792048412463,0,MQTT Subscribe,200,Received 3 of message.,MQTT 订阅探针 1-1,,true,,675,0,1,3,null,0,0,0
+1792048412515,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a862'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,0,0,0
+1792048412563,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a861'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,0,0,0
+1792048412564,2,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='d8e278a861'} disconnected.,参数化模拟终端 2-1,,true,,11,0,2,3,null,0,0,0
+1792048412621,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='d8e278a862'}.,参数化模拟终端 2-2,,true,,20,229,1,2,null,0,0,0
+1792048412621,2,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='d8e278a862'} disconnected.,参数化模拟终端 2-2,,true,,11,0,1,2,null,0,0,0
+1792048412714,0,MQTT Subscribe,200,Received 3 of message.,MQTT 订阅探针 1-1,,true,,681,0,1,1,null,0,0,0
+1792048415771,2,Observer Disconnect,200,Connection FuseMQTTConnection{clientId='o8e278a86e44c40c4'} disconnected.,MQTT 订阅探针 1-1,,true,,11,0,1,1,null,0,0,0

@@ -1,0 +1,5 @@
+{"time": "2026-10-15T07:09:22.493+00:00", "stage": "preparing", "detail": "run_id=da6b7d1c24f94d4b"}
+{"time": "2026-10-15T07:09:22.495+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T07:09:22.496+00:00", "stage": "running", "detail": "启动 JMeter，终端数 50，预期消息 1000"}
+{"time": "2026-10-15T07:09:31.363+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:09:31.396+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-concurrent-50-da6b7d1c24f94d4b/report.html"}

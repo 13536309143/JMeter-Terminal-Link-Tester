@@ -1,0 +1,7 @@
+{
+  "run_id": "8b127b121df1463e",
+  "scenario_name": "http-response-loss",
+  "started_at": "2026-10-15T07:11:00.287+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-response-loss-8b127b121df1463e"
+}

@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792047055372,103,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,390,427,2,2,http://127.0.0.1:49213/telemetry,102,0,86
+1792047055372,103,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,384,421,2,2,http://127.0.0.1:49213/telemetry,102,0,86
+1792047055697,3,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",210,421,2,2,http://127.0.0.1:49213/telemetry,3,0,0
+1792047055761,2,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",210,427,2,2,http://127.0.0.1:49213/telemetry,2,0,0
+1792047055780,2,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,384,421,2,2,http://127.0.0.1:49213/telemetry,2,0,0
+1792047055920,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,390,427,1,1,http://127.0.0.1:49213/telemetry,1,0,0

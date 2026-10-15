@@ -1,0 +1,5 @@
+{"time": "2026-10-15T07:13:30.665+00:00", "stage": "preparing", "detail": "run_id=8e278a86e44c40c4"}
+{"time": "2026-10-15T07:13:30.679+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T07:13:30.682+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 6"}
+{"time": "2026-10-15T07:13:37.442+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:13:37.478+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/integration/integration-qos-0-8e278a86e44c40c4/report.html"}

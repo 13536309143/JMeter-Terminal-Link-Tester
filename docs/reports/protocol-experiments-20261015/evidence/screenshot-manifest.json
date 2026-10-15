@@ -1,0 +1,268 @@
+[
+  {
+    "file": "environment.png",
+    "source_url": "http://127.0.0.1:8765/views/environment.html",
+    "captured_at_utc": "2026-10-15T07:12:30.425148+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "ce8db6bad7935e055953e2c3e95935bd42db7d662651cb5a981f6f9dc6b9ea35",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      948
+    ],
+    "sha256": "09f3dafa65d6f8bd377c3f2036cfd4c1cc34af6bd39f67abacbffe057cd5c1c4",
+    "dimensions": [
+      1120,
+      817
+    ]
+  },
+  {
+    "file": "http-concurrency.png",
+    "source_url": "http://127.0.0.1:8765/views/http-concurrency.html",
+    "captured_at_utc": "2026-10-15T07:14:00.707598+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "e131b68dd955d19cbd6d6fdf0dc6b70fd0b605b802b97b16503f85909af455f5",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1067
+    ],
+    "sha256": "79d147382d4c5b98f7d12229f9e579d4b3f5d241d8474a4c2b816d09ada5a8a0",
+    "dimensions": [
+      1120,
+      936
+    ]
+  },
+  {
+    "file": "http-fault.png",
+    "source_url": "http://127.0.0.1:8765/views/http-fault.html",
+    "captured_at_utc": "2026-10-15T07:14:01.918197+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "a7327472087b96b3890ac961289661c7766f7702fee2a79672622e079f29492c",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      994
+    ],
+    "sha256": "85483e24ce86b3513adf6707dd89d0f2c944ed7f3e153bd6f9eea2f02c2b1560",
+    "dimensions": [
+      1120,
+      863
+    ]
+  },
+  {
+    "file": "http-process.png",
+    "source_url": "http://127.0.0.1:8765/views/http-process.html",
+    "captured_at_utc": "2026-10-15T07:13:59.405220+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "0167da4d0f1a3578fdcc3888bca42f9dd9ce79741813caca9c312deab300a269",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1028
+    ],
+    "sha256": "1ca2c9408f805a5b0867ff5329c728d0345c23d54ca5161688c94e42df37ecfe",
+    "dimensions": [
+      1120,
+      897
+    ]
+  },
+  {
+    "file": "mqtt-concurrency.png",
+    "source_url": "http://127.0.0.1:8765/views/mqtt-concurrency.html",
+    "captured_at_utc": "2026-10-15T07:13:32.937871+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "c8996457b7ee8b90bad87a7da8cb726b99ab766983b54948a98e10858bcdb283",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1157
+    ],
+    "sha256": "0db70276aa83711ab48cf337d6475f7c7ac2745fc771522cb92ca4f9d265f5a9",
+    "dimensions": [
+      1120,
+      1026
+    ]
+  },
+  {
+    "file": "mqtt-fault.png",
+    "source_url": "http://127.0.0.1:8765/views/mqtt-fault.html",
+    "captured_at_utc": "2026-10-15T07:13:34.220304+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "883052c98f0df07d3fc51c2980ad182a8d7779bd56214b79cdd194441e90f0ff",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      949
+    ],
+    "sha256": "c55eae2cefd7535b08e7f91df95932a12308e9465eb33ba375edc38b6670601b",
+    "dimensions": [
+      1120,
+      818
+    ]
+  },
+  {
+    "file": "mqtt-process.png",
+    "source_url": "http://127.0.0.1:8765/views/mqtt-process.html",
+    "captured_at_utc": "2026-10-15T07:13:31.598522+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "c1cd160bdaa7d05101991ae189842bb1ee2b306cab47862d979a5d7a713754a0",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1073
+    ],
+    "sha256": "72918090a7301022ec13d274a348154a700bf5e89db9e024b40d2b04e620d8cc",
+    "dimensions": [
+      1120,
+      942
+    ]
+  },
+  {
+    "file": "overview.png",
+    "source_url": "http://127.0.0.1:8765/views/overview.html",
+    "captured_at_utc": "2026-10-15T07:14:03.221135+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "5f747acce67e1027375259ab203d9830a2d441a820fca24270988b1ece88828a",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      884
+    ],
+    "sha256": "62bc47e86f2257fda3d2c0603db5fb7d0c69f29fbcc12bd40eb43390aeae81be",
+    "dimensions": [
+      1120,
+      753
+    ]
+  },
+  {
+    "file": "tcp-concurrency.png",
+    "source_url": "http://127.0.0.1:8765/views/tcp-concurrency.html",
+    "captured_at_utc": "2026-10-15T07:13:46.140584+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "53e449439a84f19f852d93ee4238c065bec0721fca8fcebc6d697534c122b186",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1067
+    ],
+    "sha256": "c317e3c6e43fc41010c6719eea9850ad58b0f588979a360a4561df4c8d5a3d33",
+    "dimensions": [
+      1120,
+      936
+    ]
+  },
+  {
+    "file": "tcp-fault.png",
+    "source_url": "http://127.0.0.1:8765/views/tcp-fault.html",
+    "captured_at_utc": "2026-10-15T07:13:47.399860+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "fed918b177a849a4b057474c37afaae00f76245a029d05936c1b951495b2783a",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      994
+    ],
+    "sha256": "8137da089f07ac231251941fa710fc328f1a4bf58f629c9a9310691b8c0cd334",
+    "dimensions": [
+      1120,
+      863
+    ]
+  },
+  {
+    "file": "tcp-process.png",
+    "source_url": "http://127.0.0.1:8765/views/tcp-process.html",
+    "captured_at_utc": "2026-10-15T07:13:35.539010+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "8e3ff6bc9a02cf50b219c76192590344c83df26d69c1365f5e6c50976955c0f0",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1028
+    ],
+    "sha256": "38de8213430a85b19e855a0d9cab5cbb3619275717a9cc327f296efe5232e5d4",
+    "dimensions": [
+      1120,
+      897
+    ]
+  },
+  {
+    "file": "udp-concurrency.png",
+    "source_url": "http://127.0.0.1:8765/views/udp-concurrency.html",
+    "captured_at_utc": "2026-10-15T07:13:50.115645+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "9d92956fcc9b27ed769c5e1977660b11b2015a85ce5ef3779252d0a060b9acce",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1067
+    ],
+    "sha256": "1f24d1b7bbf3e28e8361a9529558e09e657a2beab1219e8c56dcdfa1b6597a90",
+    "dimensions": [
+      1120,
+      936
+    ]
+  },
+  {
+    "file": "udp-fault.png",
+    "source_url": "http://127.0.0.1:8765/views/udp-fault.html",
+    "captured_at_utc": "2026-10-15T07:13:51.440160+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "bd4cc5bfa99b44bc47ebc59d570b75dc181f5f469b7bd37840ec0127e64f03bf",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      928
+    ],
+    "sha256": "c70d81f9f1e2edf0eef255736964c085e6326f28e3250915f205eef05e5c9cd1",
+    "dimensions": [
+      1120,
+      797
+    ]
+  },
+  {
+    "file": "udp-process.png",
+    "source_url": "http://127.0.0.1:8765/views/udp-process.html",
+    "captured_at_utc": "2026-10-15T07:13:48.831011+00:00",
+    "capture_method": "Native Microsoft Edge window screenshot through cua_repl",
+    "processing": "Crop only browser chrome and surrounding blank space; no content retouching",
+    "original_sha256": "509429b1caa5522e746c953534ed129ddb6c0b9f41d671c84e1111728605ccea",
+    "crop_pixels": [
+      720,
+      131,
+      1840,
+      1028
+    ],
+    "sha256": "603375bb0e2b6cf0a9880eb27984eba7ab4a2ae77f1c3600b005915286c097a3",
+    "dimensions": [
+      1120,
+      897
+    ]
+  }
+]

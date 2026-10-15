@@ -1,0 +1,7 @@
+{
+  "run_id": "3b39d1a28c7a4a3e",
+  "scenario_name": "mqtt-collection-drop",
+  "started_at": "2026-10-15T07:09:42.257+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-collection-drop-3b39d1a28c7a4a3e"
+}

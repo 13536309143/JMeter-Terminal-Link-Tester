@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792046855292,240,Observer Connect,200,Connection FuseMQTTConnection{clientId='oe61572a91cbc46e2'} established successfully.,MQTT 订阅探针 1-1,,true,,11,0,1,3,null,0,0,0
+1792046856000,6,MQTT Connect,200,Connection FuseMQTTConnection{clientId='de61572a92'} established successfully.,参数化模拟终端 2-2,,true,,11,0,2,3,null,0,0,0
+1792046856004,4,MQTT Connect,200,Connection FuseMQTTConnection{clientId='de61572a91'} established successfully.,参数化模拟终端 2-1,,true,,11,0,2,3,null,0,0,0
+1792046856136,4,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a92'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,4,0,0
+1792046856142,2,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a91'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,2,0,0
+1792046856175,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a91'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,1,0,0
+1792046856178,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a92'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,1,0,0
+1792046856205,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a91'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,1,0,0
+1792046856208,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='de61572a92'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,1,0,0
+1792046856207,6,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='de61572a91'} disconnected.,参数化模拟终端 2-1,,true,,11,0,2,3,null,0,0,0
+1792046856213,2,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='de61572a92'} disconnected.,参数化模拟终端 2-2,,true,,11,0,2,3,null,0,0,0
+1792046856253,0,MQTT Subscribe,200,Received 6 of message.,MQTT 订阅探针 1-1,,true,,1356,0,1,1,null,0,0,0
+1792046859275,2,Observer Disconnect,200,Connection FuseMQTTConnection{clientId='oe61572a91cbc46e2'} disconnected.,MQTT 订阅探针 1-1,,true,,11,0,1,1,null,0,0,0

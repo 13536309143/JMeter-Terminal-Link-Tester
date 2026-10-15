@@ -1,0 +1,537 @@
+{
+  "time": "2026-10-15T07:11:38.569+00:00",
+  "passed": true,
+  "cases": [
+    {
+      "case": "mqtt-baseline",
+      "protocol": "mqtt",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "47b38534a2284dbe",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-baseline-47b38534a2284dbe",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 8
+    },
+    {
+      "case": "mqtt-concurrent-50",
+      "protocol": "mqtt",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "da6b7d1c24f94d4b",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-concurrent-50-da6b7d1c24f94d4b",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 4
+    },
+    {
+      "case": "mqtt-invalid-payload",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        15
+      ],
+      "signal_verified": true,
+      "run_id": "13b359aed86f4108",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-invalid-payload-13b359aed86f4108",
+      "delivery_rate_pct": 70.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 7
+    },
+    {
+      "case": "mqtt-collection-drop",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "injected_drops",
+        10
+      ],
+      "signal_verified": true,
+      "run_id": "3b39d1a28c7a4a3e",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-collection-drop-3b39d1a28c7a4a3e",
+      "delivery_rate_pct": 80.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 3
+    },
+    {
+      "case": "mqtt-processing-delay",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "b14e0ae5fdd04b5d",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-processing-delay-b14e0ae5fdd04b5d",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 350
+    },
+    {
+      "case": "tcp-baseline",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "ed46debe75884295",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-baseline-ed46debe75884295",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 3
+    },
+    {
+      "case": "tcp-concurrent-50",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "9280bbce6d2e427c",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-concurrent-50-9280bbce6d2e427c",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "tcp-invalid-response",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "41c094df20c842c3",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-invalid-response-41c094df20c842c3",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 55
+    },
+    {
+      "case": "tcp-wrong-message-id",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "fa11bec88bfb4e7b",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-wrong-message-id-fa11bec88bfb4e7b",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 49
+    },
+    {
+      "case": "tcp-response-loss",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "cc2da8aab13743cb",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-response-loss-cc2da8aab13743cb",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 60
+    },
+    {
+      "case": "tcp-processing-delay",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "c349020838e9484b",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-processing-delay-c349020838e9484b",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 154
+    },
+    {
+      "case": "udp-baseline",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "c01b43e3ccfd49e1",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-baseline-c01b43e3ccfd49e1",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 7
+    },
+    {
+      "case": "udp-concurrent-50",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "8c52eadc836143a9",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-concurrent-50-8c52eadc836143a9",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "udp-invalid-response",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "787246c5bb1148c2",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-invalid-response-787246c5bb1148c2",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 82
+    },
+    {
+      "case": "udp-wrong-message-id",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "b0db0ab0d9754015",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-wrong-message-id-b0db0ab0d9754015",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 87
+    },
+    {
+      "case": "udp-response-loss",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "35d4e5035ecc4500",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-response-loss-35d4e5035ecc4500",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 80
+    },
+    {
+      "case": "udp-processing-delay",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "090a3ad1f4e341c6",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-processing-delay-090a3ad1f4e341c6",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 203
+    },
+    {
+      "case": "http-baseline",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "d224060369b64f71",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-baseline-d224060369b64f71",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 4
+    },
+    {
+      "case": "http-concurrent-50",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "21e34cbb1ca14380",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-concurrent-50-21e34cbb1ca14380",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 2
+    },
+    {
+      "case": "http-invalid-response",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "1942cb1f8c644769",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-invalid-response-1942cb1f8c644769",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 94
+    },
+    {
+      "case": "http-wrong-message-id",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "cddce69fafad4af3",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-wrong-message-id-cddce69fafad4af3",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 98
+    },
+    {
+      "case": "http-response-loss",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "8b127b121df1463e",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-response-loss-8b127b121df1463e",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 97
+    },
+    {
+      "case": "http-processing-delay",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "c44b5d1b83f64da8",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-processing-delay-c44b5d1b83f64da8",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 189
+    },
+    {
+      "case": "tcp-fragmented",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "828fa38e334d4db4",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-fragmented-828fa38e334d4db4",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 87
+    },
+    {
+      "case": "tcp-abrupt-close",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "961c91b0ce04440d",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-abrupt-close-961c91b0ce04440d",
+      "delivery_rate_pct": 33.33333333333333,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 58
+    },
+    {
+      "case": "udp-duplicates",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "duplicates",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "ab284b1fdc4b4886",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-duplicates-ab284b1fdc4b4886",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 103
+    },
+    {
+      "case": "udp-reordered",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "out_of_order",
+        2
+      ],
+      "signal_verified": true,
+      "run_id": "ef98b9324fa942a8",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-reordered-ef98b9324fa942a8",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 281
+    },
+    {
+      "case": "udp-large-payload",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "4ff0a21ca43b48c0",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-large-payload-4ff0a21ca43b48c0",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 85
+    },
+    {
+      "case": "http-get",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "0e65d3f431994524",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-get-0e65d3f431994524",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 88
+    },
+    {
+      "case": "http-put",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "43074271dd35454b",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-put-43074271dd35454b",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 110
+    },
+    {
+      "case": "http-patch",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "5c888b6d8fdc4362",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-patch-5c888b6d8fdc4362",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 98
+    },
+    {
+      "case": "http-delete",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "4704938e3a5c430d",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-delete-4704938e3a5c430d",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 95
+    },
+    {
+      "case": "http-error-status",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "13421e0a56c846a0",
+      "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-error-status-13421e0a56c846a0",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 97
+    }
+  ]
+}

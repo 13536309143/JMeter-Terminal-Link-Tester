@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:12.061+00:00", "stage": "preparing", "detail": "run_id=fa11bec88bfb4e7b"}
+{"time": "2026-10-15T07:10:12.062+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:10:14.574+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:14.579+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-wrong-message-id-fa11bec88bfb4e7b/report.html"}

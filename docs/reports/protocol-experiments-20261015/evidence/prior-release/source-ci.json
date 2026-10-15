@@ -1,0 +1,35 @@
+{
+  "url": "https://github.com/13536309143/jmeter/actions/runs/38694375040",
+  "source_commit": "20746bccc0cbafebc85b0f87df7f6ec46c516d73",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 116287392241,
+      "name": "verify (windows-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/13536309143/jmeter/actions/runs/38694375040/job/116287392241"
+    },
+    {
+      "id": 116287392482,
+      "name": "verify (macos-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/13536309143/jmeter/actions/runs/38694375040/job/116287392482"
+    },
+    {
+      "id": 116287392484,
+      "name": "verify (macos-latest, 3.11)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/13536309143/jmeter/actions/runs/38694375040/job/116287392484"
+    },
+    {
+      "id": 116287392606,
+      "name": "verify (windows-latest, 3.11)",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/13536309143/jmeter/actions/runs/38694375040/job/116287392606"
+    }
+  ]
+}

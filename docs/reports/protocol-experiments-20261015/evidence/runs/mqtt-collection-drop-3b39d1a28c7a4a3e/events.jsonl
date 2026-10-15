@@ -1,0 +1,5 @@
+{"time": "2026-10-15T07:09:42.257+00:00", "stage": "preparing", "detail": "run_id=3b39d1a28c7a4a3e"}
+{"time": "2026-10-15T07:09:42.258+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T07:09:42.260+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T07:09:49.814+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:09:52.884+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-collection-drop-3b39d1a28c7a4a3e/report.html"}

@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:30.987+00:00", "stage": "preparing", "detail": "run_id=787246c5bb1148c2"}
+{"time": "2026-10-15T07:10:30.988+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:10:33.681+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:33.685+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-invalid-response-787246c5bb1148c2/report.html"}

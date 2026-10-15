@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792048193944,22,Observer Connect,200,Connection FuseMQTTConnection{clientId='ob14e0ae5fdd04b5d'} established successfully.,MQTT 订阅探针 1-1,,true,,11,0,1,2,null,0,0,0
+1792048194320,1,MQTT Connect,200,Connection FuseMQTTConnection{clientId='db14e0ae51'} established successfully.,参数化模拟终端 2-1,,true,,11,0,1,2,null,0,0,0
+1792048194448,2,MQTT Connect,200,Connection FuseMQTTConnection{clientId='db14e0ae52'} established successfully.,参数化模拟终端 2-2,,true,,11,0,2,3,null,0,0,0
+1792048194456,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae51'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,0,0,0
+1792048194556,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae52'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,1,0,0
+1792048194559,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae51'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,1,0,0
+1792048194561,0,MQTT Subscribe,200,Received 3 of message.,MQTT 订阅探针 1-1,,true,,675,0,1,3,null,0,0,0
+1792048194659,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae52'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,1,0,0
+1792048194661,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae51'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,0,0,0
+1792048194763,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae52'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,1,0,0
+1792048194768,1,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae51'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,1,0,0
+1792048194814,0,MQTT Subscribe,200,Received 4 of message.,MQTT 订阅探针 1-1,,true,,904,0,1,3,null,0,0,0
+1792048194871,2,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae52'}.,参数化模拟终端 2-2,,true,,20,229,2,3,null,2,0,0
+1792048194873,3,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae51'}.,参数化模拟终端 2-1,,true,,20,223,2,3,null,3,0,0
+1792048194877,5,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='db14e0ae51'} disconnected.,参数化模拟终端 2-1,,true,,11,0,2,3,null,0,0,0
+1792048194976,0,MQTT Publish,200,publish successfully for Connection FuseMQTTConnection{clientId='db14e0ae52'}.,参数化模拟终端 2-2,,true,,20,229,1,2,null,0,0,0
+1792048194976,1,MQTT Disconnect,200,Connection FuseMQTTConnection{clientId='db14e0ae52'} disconnected.,参数化模拟终端 2-2,,true,,11,0,1,2,null,0,0,0
+1792048195071,0,MQTT Subscribe,200,Received 3 of message.,MQTT 订阅探针 1-1,,true,,681,0,1,1,null,0,0,0
+1792048198134,3,Observer Disconnect,200,Connection FuseMQTTConnection{clientId='ob14e0ae5fdd04b5d'} disconnected.,MQTT 订阅探针 1-1,,true,,11,0,1,1,null,0,0,0

@@ -1,0 +1,7 @@
+{
+  "run_id": "35d4e5035ecc4500",
+  "scenario_name": "udp-response-loss",
+  "started_at": "2026-10-15T07:10:37.510+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-response-loss-35d4e5035ecc4500"
+}

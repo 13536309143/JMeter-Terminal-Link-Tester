@@ -139,6 +139,7 @@ deployments/      Artifact locks, licenses and optional local broker
 
 ## Documentation
 
+- [Chinese illustrated technical report: MQTT, TCP, UDP and HTTP](docs/reports/protocol-experiments-20261015/report.zh-CN.md) · [Word report](docs/reports/protocol-experiments-20261015/JMeter四协议终端模拟与采集链路实验技术报告.docx) · [Screenshots and experiment records](docs/reports/README.md)
 - [Windows/macOS setup and offline preparation](docs/deployment.md)
 - [Configuration, commands and endpoint contracts](docs/usage.md)
 - [Architecture, data flow and metric definitions](docs/architecture.md)

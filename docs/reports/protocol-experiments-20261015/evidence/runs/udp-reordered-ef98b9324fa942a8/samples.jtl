@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792048279828,232,UDP Request,504,UDP response timeout,UDP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048279828,232,UDP Request,504,UDP response timeout,UDP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048280075,14,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-1,text,true,,223,0,2,2,null,0,0,0
+1792048280075,14,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-2,text,true,,229,0,2,2,null,0,0,0
+1792048280102,151,UDP Request,504,UDP response timeout,UDP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048280102,151,UDP Request,504,UDP response timeout,UDP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048280267,0,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-1,text,true,,223,0,2,2,null,0,0,0
+1792048280267,0,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-2,text,true,,229,0,2,2,null,0,0,0
+1792048280279,151,UDP Request,504,UDP response timeout,UDP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048280280,151,UDP Request,504,UDP response timeout,UDP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048280444,1,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-2,text,true,,229,0,2,2,null,0,0,0
+1792048280443,2,UDP Request,200,Correlated UDP reply,UDP 参数化终端 1-1,text,true,,222,0,2,2,null,0,0,0

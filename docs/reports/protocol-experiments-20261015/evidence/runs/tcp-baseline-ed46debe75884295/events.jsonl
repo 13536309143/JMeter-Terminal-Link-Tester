@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:09:59.818+00:00", "stage": "preparing", "detail": "run_id=ed46debe75884295"}
+{"time": "2026-10-15T07:09:59.820+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T07:10:03.727+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:03.736+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-baseline-ed46debe75884295/report.html"}

@@ -1,0 +1,7 @@
+{
+  "run_id": "87d8c2d1f19a4c1f",
+  "scenario_name": "packaged-http-error",
+  "started_at": "2026-10-15T06:47:15.133+00:00",
+  "state": "failed",
+  "directory": "/Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-http-error-87d8c2d1f19a4c1f"
+}

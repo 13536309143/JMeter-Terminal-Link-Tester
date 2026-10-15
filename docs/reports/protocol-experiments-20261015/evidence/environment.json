@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "os": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "cpu": "Apple M6",
+  "architecture": "arm64",
+  "logical_cpus": 12,
+  "memory_gib": 24.0,
+  "python": "3.14.8",
+  "project_version": "1.0.1",
+  "source_commit": "19fdf94736e4f6b13324bf2396c5c78a42d57eb9",
+  "jmeter": "5.6.3",
+  "mqtt_plugin": "2.0.2",
+  "doctor": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "JDK 17+",
+        "ok": true,
+        "detail": "openjdk version \"17.0.20.1\" 2026-08-18 LTS"
+      },
+      {
+        "name": "JMeter 5.6.3",
+        "ok": true,
+        "detail": "/Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/bin/ApacheJMeter.jar"
+      },
+      {
+        "name": "EMQX MQTT plugin 2.0.2",
+        "ok": true,
+        "detail": "/Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/lib/ext/mqtt-xmeter-2.0.2-jar-with-dependencies.jar"
+      }
+    ]
+  },
+  "network": "127.0.0.1 loopback",
+  "command": "./linklab experiments --protocol all --results docs/reports/protocol-experiments-20261015/evidence/runs"
+}

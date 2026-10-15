@@ -1,0 +1,5 @@
+[preparing] run_id=3e5bf312e1e2432e
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-mqtt-3e5bf312e1e2432e/report.html

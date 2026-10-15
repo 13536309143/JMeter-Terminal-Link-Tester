@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:11:09.926+00:00", "stage": "preparing", "detail": "run_id=828fa38e334d4db4"}
+{"time": "2026-10-15T07:11:09.927+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:11:12.675+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:11:12.679+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-fragmented-828fa38e334d4db4/report.html"}

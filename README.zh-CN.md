@@ -220,6 +220,7 @@ source/             初次部署时准备的 JMeter 官方源码
 
 ## 文档导航
 
+- [MQTT、TCP、UDP、HTTP 中文图文技术报告](docs/reports/protocol-experiments-20261015/report.zh-CN.md) · [Word 正式报告](docs/reports/protocol-experiments-20261015/JMeter四协议终端模拟与采集链路实验技术报告.docx) · [截图与实验记录](docs/reports/README.md)
 - [部署与离线交付](docs/deployment.md)
 - [使用流程与配置字典](docs/usage.md)
 - [架构、消息契约与指标口径](docs/architecture.md)

@@ -1,0 +1,7 @@
+{
+  "run_id": "9280bbce6d2e427c",
+  "scenario_name": "tcp-concurrent-50",
+  "started_at": "2026-10-15T07:10:04.034+00:00",
+  "state": "passed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-concurrent-50-9280bbce6d2e427c"
+}

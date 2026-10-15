@@ -1,0 +1,7 @@
+{
+  "run_id": "b14e0ae5fdd04b5d",
+  "scenario_name": "mqtt-processing-delay",
+  "started_at": "2026-10-15T07:09:52.936+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-processing-delay-b14e0ae5fdd04b5d"
+}

@@ -1,0 +1,7 @@
+{
+  "run_id": "828fa38e334d4db4",
+  "scenario_name": "tcp-fragmented",
+  "started_at": "2026-10-15T07:11:09.926+00:00",
+  "state": "passed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-fragmented-828fa38e334d4db4"
+}

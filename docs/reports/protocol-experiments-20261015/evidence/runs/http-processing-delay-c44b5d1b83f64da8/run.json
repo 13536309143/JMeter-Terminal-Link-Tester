@@ -1,0 +1,7 @@
+{
+  "run_id": "c44b5d1b83f64da8",
+  "scenario_name": "http-processing-delay",
+  "started_at": "2026-10-15T07:11:06.171+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-processing-delay-c44b5d1b83f64da8"
+}

@@ -1,0 +1,7 @@
+{
+  "run_id": "fa11bec88bfb4e7b",
+  "scenario_name": "tcp-wrong-message-id",
+  "started_at": "2026-10-15T07:10:12.061+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-wrong-message-id-fa11bec88bfb4e7b"
+}

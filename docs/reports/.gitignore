@@ -1,0 +1,6 @@
+# Full local handover archives are retained locally.
+*.zip
+*.zip.sha256
+# Repeated generated dashboard assets and machine diagnostic logs.
+**/dashboard/
+**/jmeter.log

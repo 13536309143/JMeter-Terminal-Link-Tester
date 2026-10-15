@@ -1,0 +1,7 @@
+{
+  "run_id": "64324355dec04013",
+  "scenario_name": "packaged-mqtt",
+  "started_at": "2026-10-15T06:46:55.204+00:00",
+  "state": "passed",
+  "directory": "/Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-mqtt-64324355dec04013"
+}

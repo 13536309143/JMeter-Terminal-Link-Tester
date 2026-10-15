@@ -1,0 +1,7 @@
+{
+  "run_id": "47b38534a2284dbe",
+  "scenario_name": "mqtt-baseline",
+  "started_at": "2026-10-15T07:09:14.496+00:00",
+  "state": "passed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/mqtt-baseline-47b38534a2284dbe"
+}

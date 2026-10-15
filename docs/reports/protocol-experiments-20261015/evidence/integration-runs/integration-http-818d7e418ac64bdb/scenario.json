@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "name": "integration-http",
+  "description": "",
+  "protocol": "http",
+  "broker": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "username_env": "",
+    "password_env": ""
+  },
+  "load": {
+    "terminals": 2,
+    "messages_per_terminal": 3,
+    "ramp_up_seconds": 0,
+    "interval_ms": 100
+  },
+  "network": {
+    "host": "127.0.0.1",
+    "port": 9000,
+    "connect_timeout_ms": 3000,
+    "response_timeout_ms": 1000
+  },
+  "http": {
+    "host": "127.0.0.1",
+    "port": 59667,
+    "path": "/telemetry",
+    "method": "POST",
+    "connect_timeout_ms": 3000,
+    "response_timeout_ms": 1000,
+    "expected_status": 200,
+    "bearer_token_env": ""
+  },
+  "mqtt": {
+    "qos": 1,
+    "keepalive_seconds": 60,
+    "connect_timeout_seconds": 5,
+    "topic_prefix": "linklab/dongguan"
+  },
+  "data": {
+    "devices_csv": "",
+    "seed": 2025,
+    "padding_bytes": 0
+  },
+  "collection": {
+    "drain_seconds": 3,
+    "max_payload_bytes": 65536,
+    "topic_stage": "up"
+  },
+  "faults": {
+    "invalid_every": 0,
+    "drop_every": 0,
+    "processing_delay_ms": 0,
+    "response_drop_every": 0,
+    "response_invalid_every": 0,
+    "response_wrong_id_every": 0,
+    "udp_duplicate_every": 0,
+    "udp_reorder_pairs": false,
+    "tcp_fragment_bytes": 0,
+    "tcp_close_every": 0,
+    "http_error_every": 0
+  },
+  "thresholds": {
+    "max_error_rate_pct": 0,
+    "min_delivery_rate_pct": 100,
+    "max_request_p95_ms": 3000,
+    "max_e2e_p95_ms": 3000,
+    "max_duplicates": 0,
+    "max_out_of_order": 0
+  },
+  "execution": {
+    "timeout_seconds": 120,
+    "html_dashboard": true
+  }
+}

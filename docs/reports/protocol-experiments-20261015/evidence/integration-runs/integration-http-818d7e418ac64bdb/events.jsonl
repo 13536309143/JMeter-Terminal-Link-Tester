@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:13:50.933+00:00", "stage": "preparing", "detail": "run_id=818d7e418ac64bdb"}
+{"time": "2026-10-15T07:13:50.934+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 6"}
+{"time": "2026-10-15T07:13:53.839+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:13:53.841+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/integration/integration-http-818d7e418ac64bdb/report.html"}

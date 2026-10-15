@@ -9,3 +9,4 @@ jmeter-link-tester text eol=lf
 *.sqlite3 binary
 docs/evidence/** -text
 source/** -text
+docs/reports/** -text

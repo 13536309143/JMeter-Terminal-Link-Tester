@@ -1,0 +1,5 @@
+[preparing] run_id=9367131ced394359
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 5，预期消息 50
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/pipeline-runs/persistence-chain-9367131ced394359/report.html

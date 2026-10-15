@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:49.373+00:00", "stage": "preparing", "detail": "run_id=21e34cbb1ca14380"}
+{"time": "2026-10-15T07:10:49.374+00:00", "stage": "running", "detail": "启动 JMeter，终端数 50，预期消息 1000"}
+{"time": "2026-10-15T07:10:54.529+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:54.546+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-concurrent-50-21e34cbb1ca14380/report.html"}

@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792046877888,50,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,384,421,2,2,http://127.0.0.1:61841/telemetry,50,0,40
+1792046877888,50,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,390,427,2,2,http://127.0.0.1:61841/telemetry,50,0,40
+1792046878101,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,384,421,2,2,http://127.0.0.1:61841/telemetry,1,0,0
+1792046878100,4,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,390,427,2,2,http://127.0.0.1:61841/telemetry,4,0,0
+1792046878133,2,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,384,421,2,2,http://127.0.0.1:61841/telemetry,2,0,0
+1792046878137,2,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,390,427,1,1,http://127.0.0.1:61841/telemetry,2,0,0

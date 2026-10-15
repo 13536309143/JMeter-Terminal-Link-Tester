@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "JDK 17+",
+      "ok": true,
+      "detail": "openjdk version \"17.0.20.1\" 2026-08-18 LTS"
+    },
+    {
+      "name": "JMeter 5.6.3",
+      "ok": true,
+      "detail": "/Users/runner/work/jmeter/jmeter/build/release/macos-x64/jmeter-link-tester/runtime/apache-jmeter-5.6.3/bin/ApacheJMeter.jar"
+    },
+    {
+      "name": "EMQX MQTT plugin 2.0.2",
+      "ok": true,
+      "detail": "/Users/runner/work/jmeter/jmeter/build/release/macos-x64/jmeter-link-tester/runtime/apache-jmeter-5.6.3/lib/ext/mqtt-xmeter-2.0.2-jar-with-dependencies.jar"
+    }
+  ]
+}

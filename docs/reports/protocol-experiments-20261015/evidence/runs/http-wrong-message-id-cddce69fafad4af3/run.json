@@ -1,0 +1,7 @@
+{
+  "run_id": "cddce69fafad4af3",
+  "scenario_name": "http-wrong-message-id",
+  "started_at": "2026-10-15T07:10:57.515+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-wrong-message-id-cddce69fafad4af3"
+}

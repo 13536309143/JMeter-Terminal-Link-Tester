@@ -1,0 +1,4 @@
+[preparing] run_id=49db9e7961af4573
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[failed] 报告: D:\a\jmeter\jmeter\results\release-verification\runs\packaged-http-error-49db9e7961af4573\report.html

@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:57.515+00:00", "stage": "preparing", "detail": "run_id=cddce69fafad4af3"}
+{"time": "2026-10-15T07:10:57.516+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:11:00.164+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:11:00.169+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/http-wrong-message-id-cddce69fafad4af3/report.html"}

@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:11:13.094+00:00", "stage": "preparing", "detail": "run_id=961c91b0ce04440d"}
+{"time": "2026-10-15T07:11:13.095+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T07:11:15.614+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:11:15.620+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/tcp-abrupt-close-961c91b0ce04440d/report.html"}

@@ -1,0 +1,48 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using D:\a\jmeter\jmeter\results\release-verification\runs\packaged-mqtt-e61572a91cbc46e2\test-plan.jmx
+Starting standalone test @ 2026 Oct 15 06:47:33 UTC (1792046853366)
+Oct 15, 2026 6:47:35 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@20cddcaa[null]: Connecting
+Oct 15, 2026 6:47:35 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@20cddcaa[null]: Transport connected
+Oct 15, 2026 6:47:35 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@20cddcaa[null]: Logging in
+Oct 15, 2026 6:47:35 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@20cddcaa[null]: MQTT login accepted
+summary +      1 in 00:00:01 =    0.8/s Avg:   240 Min:   240 Max:   240 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@67fd3a32[null]: Connecting
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@67fd3a32[null]: Transport connected
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@67fd3a32[null]: Logging in
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@68c07a73[null]: Connecting
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@67fd3a32[null]: MQTT login accepted
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@68c07a73[null]: Transport connected
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@68c07a73[null]: Logging in
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@68c07a73[null]: MQTT login accepted
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='de61572a91'}.
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@68c07a73[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='de61572a92'}.
+Oct 15, 2026 6:47:36 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@67fd3a32[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 6:47:39 AM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='oe61572a91cbc46e2'}.
+Oct 15, 2026 6:47:39 AM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@20cddcaa[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+summary +     12 in 00:00:04 =    3.2/s Avg:     2 Min:     0 Max:     6 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:00:05 =    2.6/s Avg:    20 Min:     0 Max:   240 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 15 06:47:39 UTC (1792046859333)
+... end of run

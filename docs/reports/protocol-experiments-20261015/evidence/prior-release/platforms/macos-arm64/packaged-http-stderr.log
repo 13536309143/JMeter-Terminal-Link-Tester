@@ -1,0 +1,4 @@
+[preparing] run_id=6ed730fbd4654f1c
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-http-6ed730fbd4654f1c/report.html

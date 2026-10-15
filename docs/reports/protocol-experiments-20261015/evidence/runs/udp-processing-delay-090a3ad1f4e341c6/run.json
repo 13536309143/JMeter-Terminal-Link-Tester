@@ -1,0 +1,7 @@
+{
+  "run_id": "090a3ad1f4e341c6",
+  "scenario_name": "udp-processing-delay",
+  "started_at": "2026-10-15T07:10:41.146+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-processing-delay-090a3ad1f4e341c6"
+}

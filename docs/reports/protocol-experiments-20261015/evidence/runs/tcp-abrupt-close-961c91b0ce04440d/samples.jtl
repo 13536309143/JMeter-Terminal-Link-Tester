@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792048274196,5,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,5,0,5
+1792048274196,5,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,5,0,5
+1792048274270,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048274270,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048274282,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048274284,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048274298,1,TCP Request,500,java.net.SocketException: Broken pipe,TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792048274296,3,TCP Request,500,java.net.SocketException: Broken pipe,TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,2
+1792048274313,0,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,0,0,0
+1792048274313,0,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,0,0,0
+1792048274326,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792048274326,0,TCP Request,502,Invalid or uncorrelated response,TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0

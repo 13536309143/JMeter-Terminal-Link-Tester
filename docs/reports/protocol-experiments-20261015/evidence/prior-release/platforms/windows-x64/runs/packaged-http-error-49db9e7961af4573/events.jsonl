@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:48:00.242+00:00", "stage": "preparing", "detail": "run_id=49db9e7961af4573"}
+{"time": "2026-10-15T06:48:00.268+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 6"}
+{"time": "2026-10-15T06:48:05.887+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:48:05.891+00:00", "stage": "failed", "detail": "报告: D:\\a\\jmeter\\jmeter\\results\\release-verification\\runs\\packaged-http-error-49db9e7961af4573\\report.html"}

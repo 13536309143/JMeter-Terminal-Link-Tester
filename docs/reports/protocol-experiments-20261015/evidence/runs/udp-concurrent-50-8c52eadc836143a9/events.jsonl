@@ -1,0 +1,4 @@
+{"time": "2026-10-15T07:10:25.628+00:00", "stage": "preparing", "detail": "run_id=8c52eadc836143a9"}
+{"time": "2026-10-15T07:10:25.629+00:00", "stage": "running", "detail": "启动 JMeter，终端数 50，预期消息 1000"}
+{"time": "2026-10-15T07:10:30.828+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T07:10:30.848+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/docs/reports/protocol-experiments-20261015/evidence/runs/udp-concurrent-50-8c52eadc836143a9/report.html"}
