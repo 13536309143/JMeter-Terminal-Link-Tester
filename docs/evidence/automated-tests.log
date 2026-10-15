@@ -1,0 +1,61 @@
+test_bad_payloads_never_count_as_valid (test_collection.CollectionTests.test_bad_payloads_never_count_as_valid) ... ok
+test_duplicate_does_not_increase_delivery_rate (test_collection.CollectionTests.test_duplicate_does_not_increase_delivery_rate) ... ok
+test_injected_drop_is_explicit (test_collection.CollectionTests.test_injected_drop_is_explicit) ... ok
+test_out_of_order_and_missing_are_reported (test_collection.CollectionTests.test_out_of_order_and_missing_are_reported) ... ok
+test_topic_mismatch_and_retained_messages_are_invalid (test_collection.CollectionTests.test_topic_mismatch_and_retained_messages_are_invalid) ... ok
+test_transport_and_processing_distributions_have_values (test_collection.CollectionTests.test_transport_and_processing_distributions_have_values) ... ok
+test_csv_relative_path_shortage_and_duplicates (test_config.ConfigTests.test_csv_relative_path_shortage_and_duplicates) ... ok
+test_defaults_and_expected_workload (test_config.ConfigTests.test_defaults_and_expected_workload) ... ok
+test_fractional_ramp_is_rejected (test_config.ConfigTests.test_fractional_ramp_is_rejected) ... ok
+test_impossible_timeout_and_payload_are_rejected (test_config.ConfigTests.test_impossible_timeout_and_payload_are_rejected) ... ok
+test_misspelled_field_is_rejected (test_config.ConfigTests.test_misspelled_field_is_rejected) ... ok
+test_nonfinite_bool_and_fractional_counts_are_rejected (test_config.ConfigTests.test_nonfinite_bool_and_fractional_counts_are_rejected) ... ok
+test_protocol_wildcards_and_incomplete_auth_are_rejected (test_config.ConfigTests.test_protocol_wildcards_and_incomplete_auth_are_rejected) ... ok
+test_yaml_duplicate_and_executable_tags_are_rejected (test_config.ConfigTests.test_yaml_duplicate_and_executable_tags_are_rejected) ... ok
+test_configuration_rejects_url_injection_and_invalid_method (test_http.HTTPTests.test_configuration_rejects_url_injection_and_invalid_method) ... ok
+test_json_request_response_and_error_status (test_http.HTTPTests.test_json_request_response_and_error_status) ... ok
+test_production_cli_has_no_development_server_or_experiment_commands (test_http.HTTPTests.test_production_cli_has_no_development_server_or_experiment_commands) ... ok
+test_qos_zero_and_two_end_to_end (test_integration.IntegrationTests.test_qos_zero_and_two_end_to_end) ... [preparing] run_id=739c4e6c07774825
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/results/integration/integration-qos-0-739c4e6c07774825/report.html
+[preparing] run_id=c9cd1061a24742d8
+[subscribing] 等待独立采集器连接并确认 SUBACK
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/results/integration/integration-qos-2-c9cd1061a24742d8/report.html
+ok
+test_tcp_and_udp_end_to_end (test_integration.IntegrationTests.test_tcp_and_udp_end_to_end) ... [preparing] run_id=a43f28f4891b46ad
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/results/integration/integration-tcp-a43f28f4891b46ad/report.html
+[preparing] run_id=0affba3acc1f4da4
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/results/integration/integration-udp-0affba3acc1f4da4/report.html
+[preparing] run_id=b34f67068cff46e6
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Volumes/OUT/jmeter/results/integration/integration-http-b34f67068cff46e6/report.html
+ok
+test_corrupt_csv_is_rejected (test_metrics.MetricsTests.test_corrupt_csv_is_rejected) ... ok
+test_empty_data_is_unknown_and_cannot_pass (test_metrics.MetricsTests.test_empty_data_is_unknown_and_cannot_pass) ... ok
+test_jtl_quoted_error_and_label_separation (test_metrics.MetricsTests.test_jtl_quoted_error_and_label_separation) ... ok
+test_nearest_rank_percentile_with_repeated_values (test_metrics.MetricsTests.test_nearest_rank_percentile_with_repeated_values) ... ok
+test_corrupted_receipt_file_cannot_pass (test_network.NetworkTests.test_corrupted_receipt_file_cannot_pass) ... ok
+test_protocol_specific_faults_are_not_silently_ignored (test_network.NetworkTests.test_protocol_specific_faults_are_not_silently_ignored) ... ok
+test_tcp_fragmentation_preserves_one_json_frame (test_network.NetworkTests.test_tcp_fragmentation_preserves_one_json_frame) ... ok
+test_udp_duplicate_datagrams_are_actually_emitted (test_network.NetworkTests.test_udp_duplicate_datagrams_are_actually_emitted) ... ok
+test_udp_pair_reordering_is_visible_on_wire (test_network.NetworkTests.test_udp_pair_reordering_is_visible_on_wire) ... ok
+test_comparison_does_not_divide_by_zero_or_hide_protocol_change (test_reporting.ReportingTests.test_comparison_does_not_divide_by_zero_or_hide_protocol_change) ... ok
+test_html_escapes_external_error_text (test_reporting.ReportingTests.test_html_escapes_external_error_text) ... ok
+test_archive_traversal_is_rejected (test_runtime_and_plans.RuntimeTests.test_archive_traversal_is_rejected) ... ok
+test_bootstrap_lock_matches_runtime_plugin_pin (test_runtime_and_plans.RuntimeTests.test_bootstrap_lock_matches_runtime_plugin_pin) ... ok
+test_generated_jmx_uses_native_samplers_and_environment_auth (test_runtime_and_plans.RuntimeTests.test_generated_jmx_uses_native_samplers_and_environment_auth) ... ok
+test_process_termination_is_bounded (test_runtime_and_plans.RuntimeTests.test_process_termination_is_bounded) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 24.214s
+
+OK

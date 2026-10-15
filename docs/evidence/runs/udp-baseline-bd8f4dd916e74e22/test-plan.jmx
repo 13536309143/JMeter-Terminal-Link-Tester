@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="LinkLab UDP · udp-baseline" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Run variables">
+        <collectionProp name="Arguments.arguments" />
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="UDP 参数化终端" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="终端参数" enabled="true">
+          <stringProp name="filename">/Volumes/OUT/jmeter/results/runs/udp-baseline-bd8f4dd916e74e22/devices.csv</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="variableNames" />
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">false</boolProp>
+          <boolProp name="stopThread">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree />
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="UDP Open" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters" />
+          <stringProp name="filename" />
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">def socket = new java.net.DatagramSocket()
+socket.connect(java.net.InetAddress.getByName("127.0.0.1"), 54942)
+vars.putObject('ll_socket', socket)
+SampleResult.setIgnore()</stringProp>
+        </JSR223Sampler>
+        <hashTree />
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="定时请求" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">10</stringProp>
+        </LoopController>
+        <hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="终端请求节拍" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters" />
+            <stringProp name="filename" />
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">SampleResult.setIgnore()</stringProp>
+          </JSR223Sampler>
+          <hashTree>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="终端请求间隔" enabled="true">
+              <stringProp name="ConstantTimer.delay">100</stringProp>
+            </ConstantTimer>
+            <hashTree />
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="UDP Request" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters" />
+            <stringProp name="filename" />
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">def socket = vars.getObject('ll_socket')
+byte[] requestBytes = vars.get('ll_payload').getBytes('UTF-8')
+try {
+    socket.send(new java.net.DatagramPacket(requestBytes, requestBytes.length))
+    long deadline = System.nanoTime() + 1000L * 1000000L
+    boolean matched = false
+    int packets = 0
+    while (!matched &amp;&amp; System.nanoTime() &lt; deadline &amp;&amp; packets &lt; 1000) {
+        socket.setSoTimeout((int)Math.max(1L, java.util.concurrent.TimeUnit.NANOSECONDS.toMillis(deadline - System.nanoTime())))
+        byte[] buffer = new byte[65507]
+        def packet = new java.net.DatagramPacket(buffer, buffer.length)
+        socket.receive(packet)
+        packets++
+        byte[] responseBytes = java.util.Arrays.copyOf(packet.getData(), packet.getLength())
+        
+def receiptFile = new File("/Volumes/OUT/jmeter/results/runs/udp-baseline-bd8f4dd916e74e22", 'network-replies-' + ctx.getThreadNum() + '.jsonl')
+receiptFile.append(groovy.json.JsonOutput.toJson([received_at_ms: System.currentTimeMillis(),
+    payload_b64: java.util.Base64.encoder.encodeToString(responseBytes)]) + '\n', 'UTF-8')
+
+        def body = new groovy.json.JsonSlurper().parseText(new String(responseBytes, 'UTF-8'))
+        if (body.message_id == vars.get('ll_message_id')) {
+            matched = true
+            SampleResult.setResponseData(responseBytes)
+            SampleResult.setDataType('text')
+            SampleResult.setResponseCode('200')
+            SampleResult.setResponseMessage('Correlated UDP reply')
+            SampleResult.setSuccessful(true)
+        }
+    }
+    if (!matched) { throw new java.net.SocketTimeoutException('No correlated UDP response') }
+} catch (java.net.SocketTimeoutException e) {
+    SampleResult.setSuccessful(false)
+    SampleResult.setResponseCode('504')
+    SampleResult.setResponseMessage('UDP response timeout')
+} catch (Exception e) {
+    log.warn('UDP request failure', e)
+    SampleResult.setSuccessful(false)
+    SampleResult.setResponseCode('502')
+    SampleResult.setResponseMessage('Invalid UDP response or socket failure: ' + e.getClass().getSimpleName())
+}</stringProp>
+          </JSR223Sampler>
+          <hashTree>
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="生成可追溯请求" enabled="true">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters" />
+              <stringProp name="filename" />
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">int seq = (vars.get('ll_seq') ?: '0').toInteger() + 1
+vars.put('ll_seq', seq.toString())
+def rng = vars.getObject('ll_rng')
+if (rng == null) { rng = new Random(2025L + ctx.getThreadNum()); vars.putObject('ll_rng', rng) }
+def messageId = 'bd8f4dd916e74e22:' + vars.get('device_id') + ':' + seq
+vars.put('ll_message_id', messageId)
+def body = [schema_version: 1, run_id: 'bd8f4dd916e74e22', device_id: vars.get('device_id'),
+    device_type: vars.get('device_type'), site: vars.get('site'), seq: seq, message_id: messageId,
+    sent_at_ms: System.currentTimeMillis(), temperature_c: Math.round((20 + rng.nextDouble() * 15) * 100) / 100.0,
+    padding: 'x' * 0]
+if (0 &gt; 0 &amp;&amp; seq % Math.max(1, 0) == 0) { body.temperature_c = 'invalid' }
+vars.put('ll_payload', groovy.json.JsonOutput.toJson(body))</stringProp>
+            </JSR223PreProcessor>
+            <hashTree />
+          </hashTree>
+        </hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="UDP Drain" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters" />
+          <stringProp name="filename" />
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">def socket = vars.getObject('ll_socket')
+try {
+    long deadline = System.nanoTime() + 500000000L
+    socket.setSoTimeout(100)
+    while (System.nanoTime() &lt; deadline) {
+        byte[] buffer = new byte[65507]
+        def packet = new java.net.DatagramPacket(buffer, buffer.length)
+        socket.receive(packet)
+        byte[] responseBytes = java.util.Arrays.copyOf(packet.getData(), packet.getLength())
+        
+def receiptFile = new File("/Volumes/OUT/jmeter/results/runs/udp-baseline-bd8f4dd916e74e22", 'network-replies-' + ctx.getThreadNum() + '.jsonl')
+receiptFile.append(groovy.json.JsonOutput.toJson([received_at_ms: System.currentTimeMillis(),
+    payload_b64: java.util.Base64.encoder.encodeToString(responseBytes)]) + '\n', 'UTF-8')
+
+    }
+} catch (java.net.SocketTimeoutException ignored) {
+} finally {
+    if (socket != null) { socket.close() }
+}
+SampleResult.setIgnore()</stringProp>
+        </JSR223Sampler>
+        <hashTree />
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

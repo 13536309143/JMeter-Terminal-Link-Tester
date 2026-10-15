@@ -1,0 +1,82 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /Volumes/OUT/jmeter/results/runs/mqtt-baseline-bc60f20474454c2a/test-plan.jmx
+Starting standalone test @ 2026 Oct 15 14:06:46 CST (1792044406327)
+Oct 15, 2026 2:06:46 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@40998ca9[null]: Connecting
+Oct 15, 2026 2:06:46 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@40998ca9[null]: Transport connected
+Oct 15, 2026 2:06:46 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@40998ca9[null]: Logging in
+Oct 15, 2026 2:06:46 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@40998ca9[null]: MQTT login accepted
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3e9fed55[null]: Connecting
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3e9fed55[null]: Transport connected
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3e9fed55[null]: Logging in
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3e9fed55[null]: MQTT login accepted
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@1a1fb913[null]: Connecting
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@1a1fb913[null]: Transport connected
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@1a1fb913[null]: Logging in
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@1a1fb913[null]: MQTT login accepted
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3376ecbf[null]: Connecting
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3376ecbf[null]: Transport connected
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3376ecbf[null]: Logging in
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3376ecbf[null]: MQTT login accepted
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@64c608fa[null]: Connecting
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@64c608fa[null]: Transport connected
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@64c608fa[null]: Logging in
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@64c608fa[null]: MQTT login accepted
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@15f3a5c2[null]: Connecting
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@15f3a5c2[null]: Transport connected
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@15f3a5c2[null]: Logging in
+Oct 15, 2026 2:06:47 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@15f3a5c2[null]: MQTT login accepted
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='dbc60f2042'}.
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='dbc60f2041'}.
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@1a1fb913[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3e9fed55[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='dbc60f2043'}.
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@3376ecbf[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='dbc60f2044'}.
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@64c608fa[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='dbc60f2045'}.
+Oct 15, 2026 2:06:48 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@15f3a5c2[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+Oct 15, 2026 2:06:51 PM net.xmeter.samplers.DisConnectSampler sample
+INFO: Disconnect connection FuseMQTTConnection{clientId='obc60f20474454c2a'}.
+Oct 15, 2026 2:06:51 PM net.xmeter.samplers.mqtt.fuse.FuseMQTTClient$1 debug
+INFO: MQTT Tracer - org.fusesource.mqtt.client.MQTT@40998ca9[null]: Fatal connection failure: java.io.EOFException: Peer disconnected
+summary =     68 in 00:00:05 =   13.0/s Avg:     1 Min:     0 Max:    21 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 15 14:06:51 CST (1792044411838)
+... end of run

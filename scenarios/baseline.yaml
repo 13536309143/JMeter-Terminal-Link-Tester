@@ -1,0 +1,19 @@
+version: 1
+name: terminal-baseline
+description: 东莞中试中心终端模拟与采集链路基线
+broker:
+  host: 127.0.0.1
+  port: 1883
+load:
+  terminals: 5
+  messages_per_terminal: 10
+  ramp_up_seconds: 1
+  interval_ms: 100
+mqtt:
+  qos: 1
+  topic_prefix: linklab/dongguan
+thresholds:
+  min_delivery_rate_pct: 100
+  max_error_rate_pct: 0
+  max_request_p95_ms: 3000
+  max_e2e_p95_ms: 3000

@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792044467049,5,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,5,0,5
+1792044467049,5,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,5,0,5
+1792044467114,152,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792044467113,153,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792044467278,1,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,1,0,0
+1792044467278,1,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,1,0,0
+1792044467292,151,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0
+1792044467292,151,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792044467456,0,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,0,0,0
+1792044467456,0,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,0,0,0
+1792044467470,151,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-2,text,false,,0,0,2,2,null,0,0,0
+1792044467470,151,TCP Request,500,"org.apache.jmeter.protocol.tcp.sampler.ReadException: Error reading from server, bytes read: 0",TCP 参数化终端 1-1,text,false,,0,0,2,2,null,0,0,0

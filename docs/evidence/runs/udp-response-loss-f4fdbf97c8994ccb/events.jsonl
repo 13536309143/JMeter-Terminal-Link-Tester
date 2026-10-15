@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:08:07.876+00:00", "stage": "preparing", "detail": "run_id=f4fdbf97c8994ccb"}
+{"time": "2026-10-15T06:08:07.877+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:08:10.924+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:08:10.926+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/udp-response-loss-f4fdbf97c8994ccb/report.html"}

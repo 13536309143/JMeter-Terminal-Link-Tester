@@ -1,0 +1,271 @@
+2026-10-15 14:07:56,507 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US_#Hans
+2026-10-15 14:07:56,517 INFO o.a.j.JMeter: Loading user properties from: /Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/bin/user.properties
+2026-10-15 14:07:56,517 INFO o.a.j.JMeter: Loading system properties from: /Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/bin/system.properties
+2026-10-15 14:07:56,517 INFO o.a.j.JMeter: Loading additional properties from: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/jmeter.properties
+2026-10-15 14:07:56,519 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-15 14:07:56,519 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: java.version=17.0.20.1
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: os.name=Mac OS X
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: os.arch=aarch64
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: os.version=27.0.1
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-15 14:07:56,520 INFO o.a.j.JMeter: Available Processors =12
+2026-10-15 14:07:56,523 INFO o.a.j.JMeter: Default Locale=English (Simplified, United States)
+2026-10-15 14:07:56,523 INFO o.a.j.JMeter: JMeter  Locale=English (Simplified, United States)
+2026-10-15 14:07:56,523 INFO o.a.j.JMeter: JMeterHome=/Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3
+2026-10-15 14:07:56,523 INFO o.a.j.JMeter: user.dir  =/Volumes/OUT/jmeter
+2026-10-15 14:07:56,523 INFO o.a.j.JMeter: PWD       =/Volumes/OUT/jmeter
+[REDACTED local host identity]
+2026-10-15 14:07:56,533 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard'
+2026-10-15 14:07:56,534 INFO o.a.j.s.FileServer: Default base='/Volumes/OUT/jmeter'
+2026-10-15 14:07:56,535 INFO o.a.j.s.FileServer: Set new base='/Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d'
+2026-10-15 14:07:56,599 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-15 14:07:56,608 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-15 14:07:56,609 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-15 14:07:56,610 INFO o.a.j.s.SaveService: Loading file: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/test-plan.jmx
+2026-10-15 14:07:56,634 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-15 14:07:56,638 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-10-15 14:07:56,638 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/samples.jtl
+2026-10-15 14:07:56,638 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2026-10-15 14:07:56,639 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-10-15 14:07:56,640 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-10-15 14:07:56,641 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-10-15 14:07:56,643 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-10-15 14:07:56,644 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-10-15 14:07:56,645 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-10-15 14:07:56,646 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-10-15 14:07:56,651 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-15 14:07:56,651 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-15 14:07:56,651 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-15 14:07:56,653 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-15 14:07:56,653 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-15 14:07:56,668 INFO o.a.j.r.ClassFinder: Will scan jar /Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/lib/ext/mqtt-xmeter-2.0.2-jar-with-dependencies.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-10-15 14:07:56,915 INFO o.a.j.JMeter: Running test (1792044476915)
+2026-10-15 14:07:56,922 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : UDP 参数化终端
+2026-10-15 14:07:56,922 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group UDP 参数化终端.
+2026-10-15 14:07:56,922 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-15 14:07:56,922 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2026-10-15 14:07:56,929 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-1
+2026-10-15 14:07:56,930 INFO o.a.j.s.FileServer: Stored: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/devices.csv
+2026-10-15 14:07:56,933 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-15 14:07:56,933 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-15 14:07:56,937 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-15 14:07:56,937 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-15 14:07:56,937 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-15 14:07:56,937 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-15 14:07:56,950 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-2
+2026-10-15 14:07:56,968 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-3
+2026-10-15 14:07:56,991 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-4
+2026-10-15 14:07:57,011 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-5
+2026-10-15 14:07:57,030 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-6
+2026-10-15 14:07:57,051 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-7
+2026-10-15 14:07:57,072 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-8
+2026-10-15 14:07:57,090 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-9
+2026-10-15 14:07:57,110 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-10
+2026-10-15 14:07:57,128 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-11
+2026-10-15 14:07:57,149 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-12
+2026-10-15 14:07:57,169 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-13
+2026-10-15 14:07:57,187 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-14
+2026-10-15 14:07:57,206 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-15
+2026-10-15 14:07:57,226 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-16
+2026-10-15 14:07:57,246 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-17
+2026-10-15 14:07:57,266 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-18
+2026-10-15 14:07:57,288 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-19
+2026-10-15 14:07:57,307 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-20
+2026-10-15 14:07:57,325 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-21
+2026-10-15 14:07:57,343 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-22
+2026-10-15 14:07:57,365 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-23
+2026-10-15 14:07:57,388 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-24
+2026-10-15 14:07:57,405 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-25
+2026-10-15 14:07:57,423 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-26
+2026-10-15 14:07:57,446 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-27
+2026-10-15 14:07:57,464 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-28
+2026-10-15 14:07:57,486 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-29
+2026-10-15 14:07:57,503 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-30
+2026-10-15 14:07:57,526 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-31
+2026-10-15 14:07:57,544 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-32
+2026-10-15 14:07:57,562 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-33
+2026-10-15 14:07:57,587 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-34
+2026-10-15 14:07:57,606 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-35
+2026-10-15 14:07:57,625 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-36
+2026-10-15 14:07:57,647 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-37
+2026-10-15 14:07:57,667 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-38
+2026-10-15 14:07:57,687 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-39
+2026-10-15 14:07:57,704 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-40
+2026-10-15 14:07:57,727 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-41
+2026-10-15 14:07:57,747 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-42
+2026-10-15 14:07:57,766 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-43
+2026-10-15 14:07:57,786 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-44
+2026-10-15 14:07:57,806 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-45
+2026-10-15 14:07:57,828 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-46
+2026-10-15 14:07:57,847 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-47
+2026-10-15 14:07:57,864 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-48
+2026-10-15 14:07:57,885 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-49
+2026-10-15 14:07:57,904 INFO o.a.j.t.JMeterThread: Thread started: UDP 参数化终端 1-50
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-16
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-10
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-20
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-13
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-18
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-6
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-19
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-11
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-2
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-6
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-3
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-17
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-15
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-13
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-5
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-14
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-7
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-9
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-5
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-9
+2026-10-15 14:07:59,541 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-1
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-1
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-20
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-12
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-16
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-18
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-15
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-17
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-3
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-21
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-2
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-11
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-19
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-4
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-8
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-4
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-22
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-21
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-22
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-7
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-10
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-14
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-12
+2026-10-15 14:07:59,542 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-8
+2026-10-15 14:07:59,559 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-23
+2026-10-15 14:07:59,559 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-23
+2026-10-15 14:07:59,575 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-24
+2026-10-15 14:07:59,575 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-24
+2026-10-15 14:07:59,597 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-25
+2026-10-15 14:07:59,597 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-25
+2026-10-15 14:07:59,622 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-26
+2026-10-15 14:07:59,622 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-26
+2026-10-15 14:07:59,634 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-27
+2026-10-15 14:07:59,634 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-27
+2026-10-15 14:07:59,653 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-28
+2026-10-15 14:07:59,653 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-28
+2026-10-15 14:07:59,669 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-29
+2026-10-15 14:07:59,669 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-29
+2026-10-15 14:07:59,688 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-30
+2026-10-15 14:07:59,688 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-30
+2026-10-15 14:07:59,705 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-31
+2026-10-15 14:07:59,705 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-31
+2026-10-15 14:07:59,734 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-32
+2026-10-15 14:07:59,734 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-32
+2026-10-15 14:07:59,752 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-33
+2026-10-15 14:07:59,752 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-33
+2026-10-15 14:07:59,775 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-34
+2026-10-15 14:07:59,775 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-34
+2026-10-15 14:07:59,779 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-35
+2026-10-15 14:07:59,779 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-35
+2026-10-15 14:07:59,807 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-36
+2026-10-15 14:07:59,807 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-36
+2026-10-15 14:07:59,840 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-38
+2026-10-15 14:07:59,840 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-38
+2026-10-15 14:07:59,842 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-37
+2026-10-15 14:07:59,842 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-37
+2026-10-15 14:07:59,878 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-39
+2026-10-15 14:07:59,878 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-39
+2026-10-15 14:07:59,890 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-40
+2026-10-15 14:07:59,890 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-40
+2026-10-15 14:07:59,908 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-41
+2026-10-15 14:07:59,908 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-41
+2026-10-15 14:07:59,939 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-42
+2026-10-15 14:07:59,939 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-42
+2026-10-15 14:07:59,948 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-43
+2026-10-15 14:07:59,948 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-43
+2026-10-15 14:07:59,964 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-44
+2026-10-15 14:07:59,964 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-44
+2026-10-15 14:07:59,995 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-45
+2026-10-15 14:07:59,995 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-45
+2026-10-15 14:08:00,018 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-46
+2026-10-15 14:08:00,019 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-46
+2026-10-15 14:08:00,036 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-47
+2026-10-15 14:08:00,036 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-47
+2026-10-15 14:08:00,055 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-48
+2026-10-15 14:08:00,056 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-48
+2026-10-15 14:08:00,075 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-49
+2026-10-15 14:08:00,075 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-49
+2026-10-15 14:08:00,099 INFO o.a.j.t.JMeterThread: Thread is done: UDP 参数化终端 1-50
+2026-10-15 14:08:00,099 INFO o.a.j.t.JMeterThread: Thread finished: UDP 参数化终端 1-50
+2026-10-15 14:08:00,099 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-15 14:08:00,099 INFO o.a.j.s.FileServer: Close: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/devices.csv
+2026-10-15 14:08:00,102 INFO o.a.j.r.Summariser: summary =   1000 in 00:00:03 =  313.8/s Avg:     2 Min:     0 Max:    84 Err:     0 (0.00%)
+2026-10-15 14:08:00,103 INFO o.a.j.JMeter: Generating Dashboard
+2026-10-15 14:08:00,103 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-10-15 14:08:00,111 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-10-15 14:08:00,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-10-15 14:08:00,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-10-15 14:08:00,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-10-15 14:08:00,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-10-15 14:08:00,163 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-10-15 14:08:00,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-10-15 14:08:00,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-10-15 14:08:00,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-10-15 14:08:00,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-10-15 14:08:00,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-10-15 14:08:00,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-10-15 14:08:00,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 7000 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-10-15 14:08:00,178 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 15000 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3000 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1000 samples
+2026-10-15 14:08:00,179 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1000 samples produced in 55ms on channel 0
+2026-10-15 14:08:00,179 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-10-15 14:08:00,206 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-10-15 14:08:00,206 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-10-15 14:08:00,206 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-10-15 14:08:00,207 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-10-15 14:08:00,207 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard/statistics.json
+2026-10-15 14:08:00,219 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-10-15 14:08:00,220 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard
+2026-10-15 14:08:00,247 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard, creating folder structure
+2026-10-15 14:08:00,248 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/Volumes/OUT/jmeter/runtime/apache-jmeter-5.6.3/bin/report-template' to '/Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard', got message: /Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard, found non empty folder with following content [/Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d/dashboard/statistics.json], will be ignored
+2026-10-15 14:08:00,329 INFO o.a.j.JMeter: Dashboard generated

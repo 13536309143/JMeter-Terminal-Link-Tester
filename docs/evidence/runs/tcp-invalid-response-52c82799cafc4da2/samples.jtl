@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792044461901,5,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,5,0,5
+1792044461901,5,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,5,0,5
+1792044461966,0,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-1,text,false,,19,0,2,2,null,0,0,0
+1792044461966,0,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-2,text,false,,19,0,2,2,null,0,0,0
+1792044461979,1,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,1,0,0
+1792044461979,1,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,1,0,0
+1792044461994,0,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-1,text,false,,19,0,2,2,null,0,0,0
+1792044461994,0,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-2,text,false,,19,0,2,2,null,0,0,0
+1792044462008,0,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,224,0,2,2,null,0,0,0
+1792044462008,0,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,230,0,2,2,null,0,0,0
+1792044462021,1,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-1,text,false,,19,0,2,2,null,1,0,0
+1792044462021,1,TCP Request,502,Invalid or uncorrelated TCP response,TCP 参数化终端 1-2,text,false,,19,0,2,2,null,1,0,0

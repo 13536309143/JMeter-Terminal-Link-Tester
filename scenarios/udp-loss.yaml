@@ -1,0 +1,12 @@
+version: 1
+name: udp-loss
+protocol: udp
+network:
+  response_timeout_ms: 150
+load:
+  terminals: 2
+  messages_per_terminal: 6
+  ramp_up_seconds: 0
+  interval_ms: 10
+faults:
+  response_drop_every: 2

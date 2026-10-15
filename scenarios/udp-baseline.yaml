@@ -1,0 +1,13 @@
+version: 1
+name: udp-baseline
+protocol: udp
+description: 每个数据报一条 JSON，通过 message_id 关联响应
+network:
+  host: 127.0.0.1
+  port: 9001
+  response_timeout_ms: 1000
+load:
+  terminals: 5
+  messages_per_terminal: 10
+  ramp_up_seconds: 1
+  interval_ms: 100

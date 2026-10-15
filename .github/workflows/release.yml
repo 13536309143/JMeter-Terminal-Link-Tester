@@ -1,0 +1,75 @@
+name: build-portable-release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            python: .venv/Scripts/python.exe
+            label: windows-x64
+          - os: macos-14
+            python: .venv/bin/python
+            label: macos-arm64
+          - os: macos-15-intel
+            python: .venv/bin/python
+            label: macos-x64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Prepare source environment
+        run: python scripts/bootstrap.py
+      - name: Unit and protocol checks
+        run: ${{ matrix.python }} -m unittest discover -s tests -v
+      - name: Install application freezer
+        run: ${{ matrix.python }} -m pip install pyinstaller==6.16.0
+      - name: Build allowlisted runtime bundle
+        run: ${{ matrix.python }} scripts/release_bundle.py
+      - name: Verify portable application against external fixtures
+        run: ${{ matrix.python }} scripts/verify_release.py build/release/${{ matrix.label }}/jmeter-link-tester
+      - uses: actions/upload-artifact@v4
+        with:
+          name: runtime-${{ matrix.label }}
+          path: dist/jmeter-link-tester-1.0.0-${{ matrix.label }}.*
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-${{ matrix.label }}
+          path: results/release-verification/
+
+  publish:
+    needs: package
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: runtime-*
+          path: release-assets
+          merge-multiple: true
+      - name: Publish verified runtime assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" release-assets/* --verify-tag --title "JMeter Terminal & Link Tester $RELEASE_TAG" --notes-file docs/release-notes.md

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+LINKLAB_WORKSPACE="$(cd "$(dirname "$0")" && pwd)"
+export LINKLAB_WORKSPACE
+exec "$LINKLAB_WORKSPACE/.venv/bin/python" -m linklab "$@"

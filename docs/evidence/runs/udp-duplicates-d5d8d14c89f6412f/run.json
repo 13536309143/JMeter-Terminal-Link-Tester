@@ -1,0 +1,7 @@
+{
+  "run_id": "d5d8d14c89f6412f",
+  "scenario_name": "udp-duplicates",
+  "started_at": "2026-10-15T06:08:20.049+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/udp-duplicates-d5d8d14c89f6412f"
+}

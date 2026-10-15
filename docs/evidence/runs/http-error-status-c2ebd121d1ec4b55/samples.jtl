@@ -1,0 +1,49 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792045203546,15,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,421,2,2,http://127.0.0.1:56821/telemetry,15,0,12
+1792045203546,15,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,427,2,2,http://127.0.0.1:56821/telemetry,15,0,12
+1792045203613,1,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,421,2,2,http://127.0.0.1:56821/telemetry,0,0,0
+1792045203616,0,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,427,2,2,http://127.0.0.1:56821/telemetry,0,0,0
+1792045203628,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,421,2,2,http://127.0.0.1:56821/telemetry,1,0,0
+1792045203628,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,427,2,2,http://127.0.0.1:56821/telemetry,1,0,0
+1792045203645,1,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,427,2,2,http://127.0.0.1:56821/telemetry,1,0,0
+1792045203645,1,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,421,2,2,http://127.0.0.1:56821/telemetry,1,0,0
+1792045203663,0,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,421,2,2,http://127.0.0.1:56821/telemetry,0,0,0
+1792045203663,0,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,427,2,2,http://127.0.0.1:56821/telemetry,0,0,0
+1792045203680,0,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,426,2,2,http://127.0.0.1:56821/telemetry,0,0,0
+1792045203680,0,HTTP Request,500,Internal Server Error,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",209,421,2,2,http://127.0.0.1:56821/telemetry,0,0,0

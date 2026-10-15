@@ -1,0 +1,7 @@
+{
+  "run_id": "52418b9cdbfc49e3",
+  "scenario_name": "http-invalid-response",
+  "started_at": "2026-10-15T06:19:37.424+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/http-invalid-response-52418b9cdbfc49e3"
+}

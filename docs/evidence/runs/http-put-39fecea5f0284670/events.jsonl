@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:54.624+00:00", "stage": "preparing", "detail": "run_id=39fecea5f0284670"}
+{"time": "2026-10-15T06:19:54.626+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:19:57.068+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:57.074+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-put-39fecea5f0284670/report.html"}

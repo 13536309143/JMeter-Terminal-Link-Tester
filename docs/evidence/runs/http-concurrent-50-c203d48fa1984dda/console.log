@@ -1,0 +1,12 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /Volumes/OUT/jmeter/results/runs/http-concurrent-50-c203d48fa1984dda/test-plan.jmx
+Starting standalone test @ 2026 Oct 15 14:19:32 CST (1792045172489)
+summary +      1 in 00:00:01 =    2.0/s Avg:    17 Min:    17 Max:    17 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+summary +    999 in 00:00:03 =  380.4/s Avg:     0 Min:     0 Max:    18 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+summary =   1000 in 00:00:03 =  319.4/s Avg:     0 Min:     0 Max:    18 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 15 14:19:35 CST (1792045175885)
+... end of run

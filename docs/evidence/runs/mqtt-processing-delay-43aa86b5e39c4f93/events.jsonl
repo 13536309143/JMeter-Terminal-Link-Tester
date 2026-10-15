@@ -1,0 +1,5 @@
+{"time": "2026-10-15T06:07:24.287+00:00", "stage": "preparing", "detail": "run_id=43aa86b5e39c4f93"}
+{"time": "2026-10-15T06:07:24.289+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T06:07:24.291+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 10"}
+{"time": "2026-10-15T06:07:31.172+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:07:31.272+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/mqtt-processing-delay-43aa86b5e39c4f93/report.html"}

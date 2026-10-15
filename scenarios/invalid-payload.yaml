@@ -1,0 +1,5 @@
+version: 1
+name: invalid-payload
+description: 每个终端每 3 条消息构造一次非法温度，预期门禁失败
+faults:
+  invalid_every: 3

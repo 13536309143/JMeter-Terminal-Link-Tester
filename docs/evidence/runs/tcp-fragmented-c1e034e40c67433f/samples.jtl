@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792044495352,45,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,5,0,4
+1792044495352,44,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,5,0,4
+1792044495457,40,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,1,0,0
+1792044495457,41,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,1,0,0
+1792044495511,40,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,0,0,0
+1792044495511,41,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,0,0,0
+1792044495562,39,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,1,0,0
+1792044495564,41,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,0,0,0
+1792044495615,39,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,224,0,2,2,null,0,0,0
+1792044495618,40,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,2,2,null,0,0,0
+1792044495668,39,TCP Request,200,OK,TCP 参数化终端 1-1,text,true,,223,0,2,2,null,0,0,0
+1792044495671,40,TCP Request,200,OK,TCP 参数化终端 1-2,text,true,,230,0,1,1,null,0,0,0

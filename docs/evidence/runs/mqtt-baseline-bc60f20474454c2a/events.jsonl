@@ -1,0 +1,5 @@
+{"time": "2026-10-15T06:06:45.773+00:00", "stage": "preparing", "detail": "run_id=bc60f20474454c2a"}
+{"time": "2026-10-15T06:06:45.784+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T06:06:45.786+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T06:06:53.449+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:06:53.487+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/mqtt-baseline-bc60f20474454c2a/report.html"}

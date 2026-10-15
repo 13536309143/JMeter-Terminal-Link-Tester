@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:07:52.101+00:00", "stage": "preparing", "detail": "run_id=bd8f4dd916e74e22"}
+{"time": "2026-10-15T06:07:52.103+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T06:07:56.017+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:07:56.020+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/udp-baseline-bd8f4dd916e74e22/report.html"}

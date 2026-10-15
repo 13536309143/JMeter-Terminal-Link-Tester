@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:07:31.318+00:00", "stage": "preparing", "detail": "run_id=481f906731424709"}
+{"time": "2026-10-15T06:07:31.320+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T06:07:35.131+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:07:35.135+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/tcp-baseline-481f906731424709/report.html"}

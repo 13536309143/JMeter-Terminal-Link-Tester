@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792045200911,15,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,15,0,12
+1792045200911,15,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,429,2,2,http://127.0.0.1:56817/telemetry,15,0,12
+1792045200982,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045200984,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,429,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045200997,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045201001,0,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,429,2,2,http://127.0.0.1:56817/telemetry,0,0,0
+1792045201014,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,429,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045201014,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045201031,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045201031,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,389,429,2,2,http://127.0.0.1:56817/telemetry,1,0,0
+1792045201044,0,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,383,423,2,2,http://127.0.0.1:56817/telemetry,0,0,0
+1792045201048,0,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,388,428,1,1,http://127.0.0.1:56817/telemetry,0,0,0

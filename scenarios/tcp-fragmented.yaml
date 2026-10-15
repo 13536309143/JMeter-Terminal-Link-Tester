@@ -1,0 +1,10 @@
+version: 1
+name: tcp-fragmented
+protocol: tcp
+load:
+  terminals: 2
+  messages_per_terminal: 6
+  ramp_up_seconds: 0
+  interval_ms: 10
+faults:
+  tcp_fragment_bytes: 7

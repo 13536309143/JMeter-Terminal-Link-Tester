@@ -1,0 +1,7 @@
+{
+  "run_id": "230dfb6f57a74ed5",
+  "scenario_name": "http-wrong-message-id",
+  "started_at": "2026-10-15T06:19:40.056+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/http-wrong-message-id-230dfb6f57a74ed5"
+}

@@ -1,0 +1,536 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "mqtt-baseline",
+      "protocol": "mqtt",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "bc60f20474454c2a",
+      "directory": "runs/mqtt-baseline-bc60f20474454c2a",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 7
+    },
+    {
+      "case": "mqtt-concurrent-50",
+      "protocol": "mqtt",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "bd7ee27e1cc24923",
+      "directory": "runs/mqtt-concurrent-50-bd7ee27e1cc24923",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 9
+    },
+    {
+      "case": "mqtt-invalid-payload",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        15
+      ],
+      "signal_verified": true,
+      "run_id": "fc4cf46b7d614763",
+      "directory": "runs/mqtt-invalid-payload-fc4cf46b7d614763",
+      "delivery_rate_pct": 70.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 8
+    },
+    {
+      "case": "mqtt-collection-drop",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "injected_drops",
+        10
+      ],
+      "signal_verified": true,
+      "run_id": "e978b559afe84548",
+      "directory": "runs/mqtt-collection-drop-e978b559afe84548",
+      "delivery_rate_pct": 80.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 2
+    },
+    {
+      "case": "mqtt-processing-delay",
+      "protocol": "mqtt",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "43aa86b5e39c4f93",
+      "directory": "runs/mqtt-processing-delay-43aa86b5e39c4f93",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 345
+    },
+    {
+      "case": "tcp-baseline",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "481f906731424709",
+      "directory": "runs/tcp-baseline-481f906731424709",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "tcp-concurrent-50",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "e39bfed29d334a7b",
+      "directory": "runs/tcp-concurrent-50-e39bfed29d334a7b",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "tcp-invalid-response",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "52c82799cafc4da2",
+      "directory": "runs/tcp-invalid-response-52c82799cafc4da2",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 50
+    },
+    {
+      "case": "tcp-wrong-message-id",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "2c712ba4d84d4657",
+      "directory": "runs/tcp-wrong-message-id-2c712ba4d84d4657",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 56
+    },
+    {
+      "case": "tcp-response-loss",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "667e52a8599c4715",
+      "directory": "runs/tcp-response-loss-667e52a8599c4715",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 50
+    },
+    {
+      "case": "tcp-processing-delay",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "51b716ded5774971",
+      "directory": "runs/tcp-processing-delay-51b716ded5774971",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 180
+    },
+    {
+      "case": "udp-baseline",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "bd8f4dd916e74e22",
+      "directory": "runs/udp-baseline-bd8f4dd916e74e22",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "udp-concurrent-50",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "bab65e3499504f9d",
+      "directory": "runs/udp-concurrent-50-bab65e3499504f9d",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 1
+    },
+    {
+      "case": "udp-invalid-response",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "22e11df1c7ab498f",
+      "directory": "runs/udp-invalid-response-22e11df1c7ab498f",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 73
+    },
+    {
+      "case": "udp-wrong-message-id",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "daf4c457cabf4267",
+      "directory": "runs/udp-wrong-message-id-daf4c457cabf4267",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 119
+    },
+    {
+      "case": "udp-response-loss",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "f4fdbf97c8994ccb",
+      "directory": "runs/udp-response-loss-f4fdbf97c8994ccb",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 84
+    },
+    {
+      "case": "udp-processing-delay",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "0ec017003faa41c4",
+      "directory": "runs/udp-processing-delay-0ec017003faa41c4",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 183
+    },
+    {
+      "case": "tcp-fragmented",
+      "protocol": "tcp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "c1e034e40c67433f",
+      "directory": "runs/tcp-fragmented-c1e034e40c67433f",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 90
+    },
+    {
+      "case": "tcp-abrupt-close",
+      "protocol": "tcp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "8e487389f6084f75",
+      "directory": "runs/tcp-abrupt-close-8e487389f6084f75",
+      "delivery_rate_pct": 33.33333333333333,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 48
+    },
+    {
+      "case": "udp-duplicates",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "duplicates",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "d5d8d14c89f6412f",
+      "directory": "runs/udp-duplicates-d5d8d14c89f6412f",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 95
+    },
+    {
+      "case": "udp-reordered",
+      "protocol": "udp",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "out_of_order",
+        2
+      ],
+      "signal_verified": true,
+      "run_id": "a786f5a5750a4e1f",
+      "directory": "runs/udp-reordered-a786f5a5750a4e1f",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 276
+    },
+    {
+      "case": "udp-large-payload",
+      "protocol": "udp",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "5744ae9c8fd149f4",
+      "directory": "runs/udp-large-payload-5744ae9c8fd149f4",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 73
+    },
+    {
+      "case": "http-baseline",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "f7b26a53bda84e19",
+      "directory": "runs/http-baseline-f7b26a53bda84e19",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 5,
+      "e2e_p95_ms": 3
+    },
+    {
+      "case": "http-concurrent-50",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": [
+        "peak_active_terminals",
+        50
+      ],
+      "signal_verified": true,
+      "run_id": "c203d48fa1984dda",
+      "directory": "runs/http-concurrent-50-c203d48fa1984dda",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 50,
+      "e2e_p95_ms": 2
+    },
+    {
+      "case": "http-invalid-response",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "52418b9cdbfc49e3",
+      "directory": "runs/http-invalid-response-52418b9cdbfc49e3",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 80
+    },
+    {
+      "case": "http-wrong-message-id",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "230dfb6f57a74ed5",
+      "directory": "runs/http-wrong-message-id-230dfb6f57a74ed5",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 87
+    },
+    {
+      "case": "http-response-loss",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "missing",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "061651c8a9ff40b2",
+      "directory": "runs/http-response-loss-061651c8a9ff40b2",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 78
+    },
+    {
+      "case": "http-processing-delay",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "e2e_p95_ms",
+        41
+      ],
+      "signal_verified": true,
+      "run_id": "69e29174d3ee47af",
+      "directory": "runs/http-processing-delay-69e29174d3ee47af",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 185
+    },
+    {
+      "case": "http-get",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "485858d473954afa",
+      "directory": "runs/http-get-485858d473954afa",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 84
+    },
+    {
+      "case": "http-put",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "39fecea5f0284670",
+      "directory": "runs/http-put-39fecea5f0284670",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 87
+    },
+    {
+      "case": "http-patch",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "341ddfbedf724f8f",
+      "directory": "runs/http-patch-341ddfbedf724f8f",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 81
+    },
+    {
+      "case": "http-delete",
+      "protocol": "http",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "matched": true,
+      "signal": null,
+      "signal_verified": true,
+      "run_id": "3d7b376d52db475c",
+      "directory": "runs/http-delete-3d7b376d52db475c",
+      "delivery_rate_pct": 100.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 82
+    },
+    {
+      "case": "http-error-status",
+      "protocol": "http",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "matched": true,
+      "signal": [
+        "invalid",
+        6
+      ],
+      "signal_verified": true,
+      "run_id": "c2ebd121d1ec4b55",
+      "directory": "runs/http-error-status-c2ebd121d1ec4b55",
+      "delivery_rate_pct": 50.0,
+      "peak_active_terminals": 2,
+      "e2e_p95_ms": 78
+    }
+  ]
+}

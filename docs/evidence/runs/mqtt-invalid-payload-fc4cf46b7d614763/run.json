@@ -1,0 +1,7 @@
+{
+  "run_id": "fc4cf46b7d614763",
+  "scenario_name": "mqtt-invalid-payload",
+  "started_at": "2026-10-15T06:07:02.729+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/mqtt-invalid-payload-fc4cf46b7d614763"
+}

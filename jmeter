@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
+source "$PROJECT_DIR/scripts/env.sh"
+if [[ ! -x "$JAVA_HOME/bin/java" || ! -x "$JMETER_HOME/bin/jmeter" ]]; then
+  echo "Missing project-local JDK or JMeter under $PROJECT_DIR/runtime" >&2
+  exit 1
+fi
+mkdir -p "$PROJECT_DIR/logs"
+has_log=false
+for arg in "$@"; do
+  case "$arg" in
+    -j|--jmeterlogfile|--jmeterlogfile=*|-j?*) has_log=true; break ;;
+  esac
+done
+if [[ "$has_log" == false ]]; then
+  set -- -j "$PROJECT_DIR/logs/jmeter.log" "$@"
+fi
+exec "$JMETER_HOME/bin/jmeter" -q "$PROJECT_DIR/config/jmeter.properties" "$@"

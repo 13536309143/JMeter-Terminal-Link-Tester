@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:37.424+00:00", "stage": "preparing", "detail": "run_id=52418b9cdbfc49e3"}
+{"time": "2026-10-15T06:19:37.426+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:19:39.859+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:39.862+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-invalid-response-52418b9cdbfc49e3/report.html"}

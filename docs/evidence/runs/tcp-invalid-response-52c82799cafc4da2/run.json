@@ -1,0 +1,7 @@
+{
+  "run_id": "52c82799cafc4da2",
+  "scenario_name": "tcp-invalid-response",
+  "started_at": "2026-10-15T06:07:40.858+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/tcp-invalid-response-52c82799cafc4da2"
+}

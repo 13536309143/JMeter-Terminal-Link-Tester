@@ -1,0 +1,12 @@
+{"received_at_ms": 1792044498440, "topic": null, "bytes": 230, "device_id": "dg-00002", "seq": 1, "message_id": "8e487389f6084f75:dg-00002:1", "sent_at_ms": 1792044498392, "temperature_c": 29.28, "status": "valid", "processed_at_ms": 1792044498440, "transport_ms": 48, "e2e_ms": 48, "protocol": "tcp"}
+{"received_at_ms": 1792044498461, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498475, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498491, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498505, "topic": null, "bytes": 230, "device_id": "dg-00002", "seq": 5, "message_id": "8e487389f6084f75:dg-00002:5", "sent_at_ms": 1792044498504, "temperature_c": 34.28, "status": "valid", "processed_at_ms": 1792044498505, "transport_ms": 1, "e2e_ms": 1, "protocol": "tcp"}
+{"received_at_ms": 1792044498518, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498440, "topic": null, "bytes": 224, "device_id": "dg-00001", "seq": 1, "message_id": "8e487389f6084f75:dg-00001:1", "sent_at_ms": 1792044498392, "temperature_c": 29.28, "status": "valid", "processed_at_ms": 1792044498440, "transport_ms": 48, "e2e_ms": 48, "protocol": "tcp"}
+{"received_at_ms": 1792044498461, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498475, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498491, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}
+{"received_at_ms": 1792044498504, "topic": null, "bytes": 224, "device_id": "dg-00001", "seq": 5, "message_id": "8e487389f6084f75:dg-00001:5", "sent_at_ms": 1792044498504, "temperature_c": 32.63, "status": "valid", "processed_at_ms": 1792044498504, "transport_ms": 0, "e2e_ms": 0, "protocol": "tcp"}
+{"received_at_ms": 1792044498518, "topic": null, "bytes": 0, "status": "invalid", "reason": "Expecting value: line 1 column 1 (char 0)", "protocol": "tcp"}

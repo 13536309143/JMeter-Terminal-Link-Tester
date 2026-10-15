@@ -1,0 +1,7 @@
+{
+  "run_id": "bab65e3499504f9d",
+  "scenario_name": "udp-concurrent-50",
+  "started_at": "2026-10-15T06:07:56.223+00:00",
+  "state": "passed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/udp-concurrent-50-bab65e3499504f9d"
+}

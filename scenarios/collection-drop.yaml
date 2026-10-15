@@ -1,0 +1,5 @@
+version: 1
+name: collection-drop
+description: 每个终端每 4 条消息在采集处理阶段主动丢弃一次，预期完整率门禁失败
+faults:
+  drop_every: 4

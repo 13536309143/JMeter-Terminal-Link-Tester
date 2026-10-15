@@ -1,0 +1,7 @@
+{
+  "run_id": "51b716ded5774971",
+  "scenario_name": "tcp-processing-delay",
+  "started_at": "2026-10-15T06:07:49.006+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/tcp-processing-delay-51b716ded5774971"
+}

@@ -1,0 +1,61 @@
+Verified cached artifact: amazon-corretto-17-macos-aarch64.tar.gz
+Verified cached artifact: apache-jmeter-5.6.3.tgz
+Verified cached artifact: mqtt-xmeter-2.0.2-jar-with-dependencies.jar
+Looking in links: /Volumes/OUT/jmeter/.work/cold-install/downloads/wheels
+Processing ./.work/cold-install/downloads/wheels/amqtt-0.11.3-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 1))
+Processing ./.work/cold-install/downloads/wheels/click-8.1.8-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 2))
+Processing ./.work/cold-install/downloads/wheels/dacite-1.9.2-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 3))
+Processing ./.work/cold-install/downloads/wheels/markdown_it_py-4.2.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 4))
+Processing ./.work/cold-install/downloads/wheels/mdurl-0.1.2-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 5))
+Processing ./.work/cold-install/downloads/wheels/paho_mqtt-2.1.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 6))
+Processing ./.work/cold-install/downloads/wheels/passlib-1.7.4-py2.py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 7))
+Processing ./.work/cold-install/downloads/wheels/psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 8))
+Processing ./.work/cold-install/downloads/wheels/pygments-2.21.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 9))
+Processing ./.work/cold-install/downloads/wheels/pyyaml-6.0.2-cp314-cp314-macosx_10_15_universal2.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 10))
+Processing ./.work/cold-install/downloads/wheels/rich-15.0.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 11))
+Processing ./.work/cold-install/downloads/wheels/shellingham-1.5.4-py2.py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 12))
+Processing ./.work/cold-install/downloads/wheels/six-1.17.0-py2.py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 13))
+Processing ./.work/cold-install/downloads/wheels/transitions-0.9.2-py2.py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 14))
+Processing ./.work/cold-install/downloads/wheels/typer-0.15.4-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 15))
+Processing ./.work/cold-install/downloads/wheels/typing_extensions-4.16.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 16))
+Processing ./.work/cold-install/downloads/wheels/websockets-15.0.1-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 17))
+Processing ./.work/cold-install/downloads/wheels/setuptools-80.9.0-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 19))
+Processing ./.work/cold-install/downloads/wheels/wheel-0.45.1-py3-none-any.whl (from -r /Volumes/OUT/jmeter/.work/cold-install/requirements.lock (line 20))
+Installing collected packages: passlib, wheel, websockets, typing_extensions, six, shellingham, setuptools, PyYAML, Pygments, psutil, paho-mqtt, mdurl, dacite, click, transitions, markdown-it-py, rich, typer, amqtt
+
+Successfully installed PyYAML-6.0.2 Pygments-2.21.0 amqtt-0.11.3 click-8.1.8 dacite-1.9.2 markdown-it-py-4.2.0 mdurl-0.1.2 paho-mqtt-2.1.0 passlib-1.7.4 psutil-7.2.2 rich-15.0.0 setuptools-80.9.0 shellingham-1.5.4 six-1.17.0 transitions-0.9.2 typer-0.15.4 typing_extensions-4.16.0 websockets-15.0.1 wheel-0.45.1
+Looking in links: /Volumes/OUT/jmeter/.work/cold-install/downloads/wheels
+Obtaining file:///Volumes/OUT/jmeter/.work/cold-install
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: dg-linklab
+  Building editable for dg-linklab (pyproject.toml): started
+  Building editable for dg-linklab (pyproject.toml): finished with status 'done'
+  Created wheel for dg-linklab: filename=dg_linklab-1.0.0-0.editable-py3-none-any.whl size=6938 sha256=950039f0ad2cab6b71fb5c1b424f4d7295eea69ecf87a0e58486ed71ac2184d6
+  Stored in directory: /private/var/folders/my/3b_czdcx0gn8hkzrq8z1c_lr0000gn/T/pip-ephem-wheel-cache-lh4petb4/wheels/09/c0/27/e309e722a7495d2c5f48ba4664bf75da2c148fdb91233fa4e7
+Successfully built dg-linklab
+Installing collected packages: dg-linklab
+Successfully installed dg-linklab-1.0.0
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "JDK 17+",
+      "ok": true,
+      "detail": "openjdk version \"17.0.20.1\" 2026-08-18 LTS"
+    },
+    {
+      "name": "JMeter 5.6.3",
+      "ok": true,
+      "detail": "/Volumes/OUT/jmeter/.work/cold-install/runtime/apache-jmeter-5.6.3/bin/ApacheJMeter.jar"
+    },
+    {
+      "name": "EMQX MQTT plugin 2.0.2",
+      "ok": true,
+      "detail": "/Volumes/OUT/jmeter/.work/cold-install/runtime/apache-jmeter-5.6.3/lib/ext/mqtt-xmeter-2.0.2-jar-with-dependencies.jar"
+    }
+  ]
+}
+Ready. Run linklab.cmd demo (Windows) or ./linklab demo (macOS).

@@ -1,0 +1,10 @@
+version: 1
+name: processing-delay
+description: 采集端串行处理注入 80ms 延迟，预期 40ms P95 门禁失败
+load:
+  terminals: 2
+  messages_per_terminal: 5
+faults:
+  processing_delay_ms: 80
+thresholds:
+  max_e2e_p95_ms: 40

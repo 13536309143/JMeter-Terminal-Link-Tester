@@ -1,0 +1,7 @@
+{
+  "run_id": "667e52a8599c4715",
+  "scenario_name": "tcp-response-loss",
+  "started_at": "2026-10-15T06:07:45.994+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/tcp-response-loss-667e52a8599c4715"
+}

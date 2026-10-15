@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:27.839+00:00", "stage": "preparing", "detail": "run_id=f7b26a53bda84e19"}
+{"time": "2026-10-15T06:19:27.849+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T06:19:31.760+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:31.765+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-baseline-f7b26a53bda84e19/report.html"}

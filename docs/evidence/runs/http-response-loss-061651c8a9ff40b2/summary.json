@@ -1,0 +1,218 @@
+{
+  "run_id": "061651c8a9ff40b2",
+  "scenario_name": "http-response-loss",
+  "started_at": "2026-10-15T06:19:42.671+00:00",
+  "finished_at": "2026-10-15T06:19:48.152+00:00",
+  "protocol": "http",
+  "status": "failed",
+  "error": "",
+  "jmeter_exit_code": 0,
+  "wall_seconds": 5.479117457987741,
+  "expected_messages": 12,
+  "load": {
+    "terminals": 2,
+    "messages_per_terminal": 6,
+    "ramp_up_seconds": 0,
+    "interval_ms": 10
+  },
+  "faults": {
+    "invalid_every": 0,
+    "drop_every": 0,
+    "processing_delay_ms": 0,
+    "response_drop_every": 2,
+    "response_invalid_every": 0,
+    "response_wrong_id_every": 0,
+    "udp_duplicate_every": 0,
+    "udp_reorder_pairs": false,
+    "tcp_fragment_bytes": 0,
+    "tcp_close_every": 0,
+    "http_error_every": 0
+  },
+  "mqtt": {
+    "qos": 1,
+    "keepalive_seconds": 60,
+    "connect_timeout_seconds": 5,
+    "topic_prefix": "linklab/dongguan"
+  },
+  "collection_stage": "up",
+  "jmeter": {
+    "samples": 12,
+    "errors": 6,
+    "error_rate_pct": 50.0,
+    "duration_seconds": 3.151,
+    "peak_active_terminals": 2,
+    "throughput_per_second": 3.808314820691844,
+    "labels": {
+      "HTTP Request": {
+        "count": 12,
+        "mean_ms": 503.5833333333333,
+        "min_ms": 1,
+        "max_ms": 1003,
+        "p50_ms": 13,
+        "p95_ms": 1003,
+        "p99_ms": 1003,
+        "errors": 6,
+        "error_rate_pct": 50.0,
+        "received_bytes": 18378
+      }
+    },
+    "errors_by_message": {
+      "HTTP Request [Non HTTP response code: java.net.SocketTimeoutException]: Test failed: code expected to equal /\n\n****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]\n\n****** comparison: [[[200                                                    ]]]\n\n/": 6
+    },
+    "series": [
+      {
+        "timestamp_seconds": 1792045183,
+        "samples": 4,
+        "errors": 2
+      },
+      {
+        "timestamp_seconds": 1792045184,
+        "samples": 4,
+        "errors": 2
+      },
+      {
+        "timestamp_seconds": 1792045185,
+        "samples": 4,
+        "errors": 2
+      }
+    ]
+  },
+  "collection": {
+    "expected": 12,
+    "received": 12,
+    "valid_unique": 6,
+    "missing": 6,
+    "invalid": 6,
+    "duplicates": 0,
+    "out_of_order": 0,
+    "injected_drops": 0,
+    "foreign": 0,
+    "queue_overflows": 0,
+    "worker_error": "",
+    "delivery_rate_pct": 50.0,
+    "transport": {
+      "count": 6,
+      "mean_ms": 28.0,
+      "min_ms": 2,
+      "max_ms": 78,
+      "p50_ms": 3,
+      "p95_ms": 78,
+      "p99_ms": 78
+    },
+    "e2e": {
+      "count": 6,
+      "mean_ms": 28.0,
+      "min_ms": 2,
+      "max_ms": 78,
+      "p50_ms": 3,
+      "p95_ms": 78,
+      "p99_ms": 78
+    },
+    "invalid_reasons": {
+      "Expecting value: line 1 column 1 (char 0)": 6
+    }
+  },
+  "observer": {
+    "received": 0,
+    "ready": false,
+    "terminals_finished": 0
+  },
+  "acceptance": {
+    "passed": false,
+    "gates": [
+      {
+        "name": "JMeter 正常退出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "未触发执行超时",
+        "actual": false,
+        "operator": "==",
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "业务采样数",
+        "actual": 12,
+        "operator": "==",
+        "expected": 12,
+        "passed": true
+      },
+      {
+        "name": "采样错误率 %",
+        "actual": 50.0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": false
+      },
+      {
+        "name": "业务请求 P95 ms",
+        "actual": 1003,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "有效消息完整率 %",
+        "actual": 50.0,
+        "operator": ">=",
+        "expected": 100,
+        "passed": false
+      },
+      {
+        "name": "采集处理 P95 ms",
+        "actual": 78,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "非法消息",
+        "actual": 6,
+        "operator": "==",
+        "expected": 0,
+        "passed": false
+      },
+      {
+        "name": "重复消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "乱序消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集队列溢出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集线程健康",
+        "actual": "",
+        "operator": "==",
+        "expected": "",
+        "passed": true
+      },
+      {
+        "name": "JMeter HTML 仪表盘",
+        "actual": true,
+        "operator": "==",
+        "expected": true,
+        "passed": true
+      }
+    ]
+  },
+  "message_throughput_per_second": 3.808314820691844,
+  "directory": "/Volumes/OUT/jmeter/results/runs/http-response-loss-061651c8a9ff40b2"
+}

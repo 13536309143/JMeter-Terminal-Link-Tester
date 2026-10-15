@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.work/
+runtime/
+downloads/
+results/
+logs/
+build/
+dist/
+.env
+*.private.properties
+*.jks
+*.p12
+*.key

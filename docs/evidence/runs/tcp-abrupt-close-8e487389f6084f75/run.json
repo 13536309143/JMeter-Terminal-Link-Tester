@@ -1,0 +1,7 @@
+{
+  "run_id": "8e487389f6084f75",
+  "scenario_name": "tcp-abrupt-close",
+  "started_at": "2026-10-15T06:08:17.406+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/tcp-abrupt-close-8e487389f6084f75"
+}

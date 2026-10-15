@@ -1,0 +1,10 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /Volumes/OUT/jmeter/results/runs/udp-processing-delay-0ec017003faa41c4/test-plan.jmx
+Starting standalone test @ 2026 Oct 15 14:08:11 CST (1792044491442)
+summary =     12 in 00:00:01 =    9.5/s Avg:   118 Min:   101 Max:   186 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 15 14:08:12 CST (1792044492991)
+... end of run

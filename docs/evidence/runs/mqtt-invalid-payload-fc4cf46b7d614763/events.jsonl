@@ -1,0 +1,5 @@
+{"time": "2026-10-15T06:07:02.729+00:00", "stage": "preparing", "detail": "run_id=fc4cf46b7d614763"}
+{"time": "2026-10-15T06:07:02.731+00:00", "stage": "subscribing", "detail": "等待独立采集器连接并确认 SUBACK"}
+{"time": "2026-10-15T06:07:02.734+00:00", "stage": "running", "detail": "启动 JMeter，终端数 5，预期消息 50"}
+{"time": "2026-10-15T06:07:10.393+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:07:13.487+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/mqtt-invalid-payload-fc4cf46b7d614763/report.html"}

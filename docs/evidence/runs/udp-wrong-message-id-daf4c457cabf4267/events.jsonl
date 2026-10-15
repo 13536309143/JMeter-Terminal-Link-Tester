@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:08:04.338+00:00", "stage": "preparing", "detail": "run_id=daf4c457cabf4267"}
+{"time": "2026-10-15T06:08:04.339+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:08:07.359+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:08:07.364+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/udp-wrong-message-id-daf4c457cabf4267/report.html"}

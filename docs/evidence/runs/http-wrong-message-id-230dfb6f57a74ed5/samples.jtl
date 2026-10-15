@@ -1,0 +1,49 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792045181095,13,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56793/telemetry,13,0,10
+1792045181095,13,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56793/telemetry,13,0,10
+1792045181172,1,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",396,421,2,2,http://127.0.0.1:56793/telemetry,1,0,0
+1792045181175,1,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",402,427,2,2,http://127.0.0.1:56793/telemetry,0,0,0
+1792045181188,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56793/telemetry,1,0,0
+1792045181190,0,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56793/telemetry,0,0,0
+1792045181203,0,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",396,421,2,2,http://127.0.0.1:56793/telemetry,0,0,0
+1792045181205,0,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",402,427,2,2,http://127.0.0.1:56793/telemetry,0,0,0
+1792045181218,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56793/telemetry,1,0,0
+1792045181218,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56793/telemetry,1,0,0
+1792045181231,0,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",395,420,2,2,http://127.0.0.1:56793/telemetry,0,0,0
+1792045181231,0,HTTP Request,502,Invalid or uncorrelated TCP response,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[502]]]
+
+****** comparison: [[[200]]]
+
+/",402,427,2,2,http://127.0.0.1:56793/telemetry,0,0,0

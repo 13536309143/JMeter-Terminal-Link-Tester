@@ -1,0 +1,7 @@
+{
+  "run_id": "e39bfed29d334a7b",
+  "scenario_name": "tcp-concurrent-50",
+  "started_at": "2026-10-15T06:07:35.500+00:00",
+  "state": "passed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/tcp-concurrent-50-e39bfed29d334a7b"
+}

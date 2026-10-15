@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:08:14.330+00:00", "stage": "preparing", "detail": "run_id=c1e034e40c67433f"}
+{"time": "2026-10-15T06:08:14.331+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:08:16.973+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:08:16.976+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/tcp-fragmented-c1e034e40c67433f/report.html"}

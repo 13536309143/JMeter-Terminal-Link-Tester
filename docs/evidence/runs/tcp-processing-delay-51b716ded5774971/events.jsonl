@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:07:49.006+00:00", "stage": "preparing", "detail": "run_id=51b716ded5774971"}
+{"time": "2026-10-15T06:07:49.007+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:07:52.043+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:07:52.046+00:00", "stage": "failed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/tcp-processing-delay-51b716ded5774971/report.html"}

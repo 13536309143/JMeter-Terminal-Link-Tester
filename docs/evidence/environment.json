@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python": "3.14.8",
+  "jmeter": "5.6.3",
+  "mqtt_plugin": "2.0.2",
+  "java": "Amazon Corretto 17.0.20",
+  "execution": "Synthetic loopback services; native JMeter; macOS ARM64",
+  "time_utc": "2026-10-15",
+  "redactions": "Only local host identity lines in jmeter.log redacted; original measurement files unchanged."
+}

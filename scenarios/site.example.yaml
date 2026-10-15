@@ -1,0 +1,30 @@
+version: 1
+name: dongguan-site
+description: 现场接入模板，复制后修改 Broker 地址和终端参数
+broker:
+  host: 127.0.0.1
+  port: 1883
+  username_env: LINKLAB_MQTT_USERNAME
+  password_env: LINKLAB_MQTT_PASSWORD
+load:
+  terminals: 5
+  messages_per_terminal: 20
+  ramp_up_seconds: 2
+  interval_ms: 200
+mqtt:
+  qos: 1
+  topic_prefix: linklab/dongguan
+data:
+  devices_csv: ../data/devices.example.csv
+  seed: 2025
+  padding_bytes: 128
+collection:
+  drain_seconds: 5
+thresholds:
+  min_delivery_rate_pct: 100
+  max_error_rate_pct: 0
+  max_request_p95_ms: 3000
+  max_e2e_p95_ms: 3000
+execution:
+  timeout_seconds: 120
+  html_dashboard: true

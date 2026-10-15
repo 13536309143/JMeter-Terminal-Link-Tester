@@ -1,0 +1,16 @@
+version: 1
+name: concurrent-50
+description: 50 个模拟终端并发上报验证，不代表 50 个平台用户或 50 个独立测试实例
+broker:
+  host: 127.0.0.1
+  port: 1883
+load:
+  terminals: 50
+  messages_per_terminal: 20
+  ramp_up_seconds: 1
+  interval_ms: 100
+mqtt:
+  qos: 1
+thresholds:
+  min_delivery_rate_pct: 100
+  max_error_rate_pct: 0

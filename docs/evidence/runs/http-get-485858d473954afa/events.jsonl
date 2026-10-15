@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:52.029+00:00", "stage": "preparing", "detail": "run_id=485858d473954afa"}
+{"time": "2026-10-15T06:19:52.030+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:19:54.431+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:54.434+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-get-485858d473954afa/report.html"}

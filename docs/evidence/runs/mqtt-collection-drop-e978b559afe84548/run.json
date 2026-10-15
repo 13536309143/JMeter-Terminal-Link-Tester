@@ -1,0 +1,7 @@
+{
+  "run_id": "e978b559afe84548",
+  "scenario_name": "mqtt-collection-drop",
+  "started_at": "2026-10-15T06:07:13.535+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/mqtt-collection-drop-e978b559afe84548"
+}

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="LinkLab TCP · tcp-wrong-message-id" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Run variables">
+        <collectionProp name="Arguments.arguments" />
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="TCP 参数化终端" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">0</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="终端参数" enabled="true">
+          <stringProp name="filename">/Volumes/OUT/jmeter/results/runs/tcp-wrong-message-id-2c712ba4d84d4657/devices.csv</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="variableNames" />
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">false</boolProp>
+          <boolProp name="stopThread">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree />
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="定时请求" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">6</stringProp>
+        </LoopController>
+        <hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="终端请求节拍" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters" />
+            <stringProp name="filename" />
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">SampleResult.setIgnore()</stringProp>
+          </JSR223Sampler>
+          <hashTree>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="终端请求间隔" enabled="true">
+              <stringProp name="ConstantTimer.delay">10</stringProp>
+            </ConstantTimer>
+            <hashTree />
+          </hashTree>
+          <TCPSampler guiclass="TCPSamplerGui" testclass="TCPSampler" testname="TCP Request" enabled="true">
+            <stringProp name="TCPSampler.server">127.0.0.1</stringProp>
+            <stringProp name="TCPSampler.port">56330</stringProp>
+            <stringProp name="TCPSampler.classname">org.apache.jmeter.protocol.tcp.sampler.TCPClientImpl</stringProp>
+            <boolProp name="TCPSampler.nodelay">true</boolProp>
+            <boolProp name="TCPSampler.reUseConnection">true</boolProp>
+            <boolProp name="TCPSampler.closeConnection">false</boolProp>
+            <stringProp name="TCPSampler.EolByte">10</stringProp>
+            <stringProp name="TCPSampler.ctimeout">3000</stringProp>
+            <stringProp name="TCPSampler.timeout">150</stringProp>
+            <stringProp name="TCPSampler.request">${ll_payload}
+</stringProp>
+          </TCPSampler>
+          <hashTree>
+            <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="保存并关联 TCP 响应" enabled="true">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters" />
+              <stringProp name="filename" />
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">def receiptFile = new File("/Volumes/OUT/jmeter/results/runs/tcp-wrong-message-id-2c712ba4d84d4657", 'network-replies-' + ctx.getThreadNum() + '.jsonl')
+receiptFile.append(groovy.json.JsonOutput.toJson([received_at_ms: System.currentTimeMillis(),
+    payload_b64: java.util.Base64.encoder.encodeToString(prev.getResponseData())]) + '\n', 'UTF-8')
+
+if (prev.isSuccessful()) { try {
+    def body = new groovy.json.JsonSlurper().parseText(prev.getResponseDataAsString())
+    if (body.message_id != vars.get('ll_message_id')) { throw new IllegalStateException('Response message_id mismatch') }
+} catch (Exception e) {
+    prev.setSuccessful(false)
+    prev.setResponseCode('502')
+    prev.setResponseMessage('Invalid or uncorrelated TCP response')
+} }</stringProp>
+            </JSR223PostProcessor>
+            <hashTree />
+            <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="生成可追溯请求" enabled="true">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters" />
+              <stringProp name="filename" />
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script">int seq = (vars.get('ll_seq') ?: '0').toInteger() + 1
+vars.put('ll_seq', seq.toString())
+def rng = vars.getObject('ll_rng')
+if (rng == null) { rng = new Random(2025L + ctx.getThreadNum()); vars.putObject('ll_rng', rng) }
+def messageId = '2c712ba4d84d4657:' + vars.get('device_id') + ':' + seq
+vars.put('ll_message_id', messageId)
+def body = [schema_version: 1, run_id: '2c712ba4d84d4657', device_id: vars.get('device_id'),
+    device_type: vars.get('device_type'), site: vars.get('site'), seq: seq, message_id: messageId,
+    sent_at_ms: System.currentTimeMillis(), temperature_c: Math.round((20 + rng.nextDouble() * 15) * 100) / 100.0,
+    padding: 'x' * 0]
+if (0 &gt; 0 &amp;&amp; seq % Math.max(1, 0) == 0) { body.temperature_c = 'invalid' }
+vars.put('ll_payload', groovy.json.JsonOutput.toJson(body))</stringProp>
+            </JSR223PreProcessor>
+            <hashTree />
+          </hashTree>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

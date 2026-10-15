@@ -1,0 +1,301 @@
+{
+  "run_id": "bd7ee27e1cc24923",
+  "scenario_name": "mqtt-concurrent-50",
+  "started_at": "2026-10-15T06:06:53.534+00:00",
+  "finished_at": "2026-10-15T06:07:02.674+00:00",
+  "protocol": "mqtt",
+  "status": "passed",
+  "error": "",
+  "jmeter_exit_code": 0,
+  "wall_seconds": 9.1389132499462,
+  "expected_messages": 1000,
+  "load": {
+    "terminals": 50,
+    "messages_per_terminal": 20,
+    "ramp_up_seconds": 1,
+    "interval_ms": 100
+  },
+  "faults": {
+    "invalid_every": 0,
+    "drop_every": 0,
+    "processing_delay_ms": 0,
+    "response_drop_every": 0,
+    "response_invalid_every": 0,
+    "response_wrong_id_every": 0,
+    "udp_duplicate_every": 0,
+    "udp_reorder_pairs": false,
+    "tcp_fragment_bytes": 0,
+    "tcp_close_every": 0
+  },
+  "mqtt": {
+    "qos": 1,
+    "keepalive_seconds": 60,
+    "connect_timeout_seconds": 5,
+    "topic_prefix": "linklab/dongguan"
+  },
+  "collection_stage": "up",
+  "jmeter": {
+    "samples": 1113,
+    "errors": 0,
+    "error_rate_pct": 0.0,
+    "duration_seconds": 6.239,
+    "peak_active_terminals": 50,
+    "throughput_per_second": 178.393973393172,
+    "labels": {
+      "Observer Connect": {
+        "count": 1,
+        "mean_ms": 33.0,
+        "min_ms": 33,
+        "max_ms": 33,
+        "p50_ms": 33,
+        "p95_ms": 33,
+        "p99_ms": 33,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 11
+      },
+      "MQTT Connect": {
+        "count": 50,
+        "mean_ms": 1.76,
+        "min_ms": 1,
+        "max_ms": 3,
+        "p50_ms": 2,
+        "p95_ms": 3,
+        "p99_ms": 3,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 550
+      },
+      "MQTT Publish": {
+        "count": 1000,
+        "mean_ms": 0.604,
+        "min_ms": 0,
+        "max_ms": 6,
+        "p50_ms": 1,
+        "p95_ms": 2,
+        "p99_ms": 3,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 20000
+      },
+      "MQTT Subscribe": {
+        "count": 11,
+        "mean_ms": 0.0,
+        "min_ms": 0,
+        "max_ms": 0,
+        "p50_ms": 0,
+        "p95_ms": 0,
+        "p99_ms": 0,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 227295
+      },
+      "MQTT Disconnect": {
+        "count": 50,
+        "mean_ms": 2.4,
+        "min_ms": 0,
+        "max_ms": 7,
+        "p50_ms": 2,
+        "p95_ms": 6,
+        "p99_ms": 7,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 550
+      },
+      "Observer Disconnect": {
+        "count": 1,
+        "mean_ms": 1.0,
+        "min_ms": 1,
+        "max_ms": 1,
+        "p50_ms": 1,
+        "p95_ms": 1,
+        "p99_ms": 1,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 11
+      }
+    },
+    "errors_by_message": {},
+    "series": [
+      {
+        "timestamp_seconds": 1792044415,
+        "samples": 329,
+        "errors": 0
+      },
+      {
+        "timestamp_seconds": 1792044416,
+        "samples": 494,
+        "errors": 0
+      },
+      {
+        "timestamp_seconds": 1792044417,
+        "samples": 177,
+        "errors": 0
+      }
+    ]
+  },
+  "collection": {
+    "expected": 1000,
+    "received": 1000,
+    "valid_unique": 1000,
+    "missing": 0,
+    "invalid": 0,
+    "duplicates": 0,
+    "out_of_order": 0,
+    "injected_drops": 0,
+    "foreign": 0,
+    "queue_overflows": 0,
+    "worker_error": "",
+    "delivery_rate_pct": 100.0,
+    "transport": {
+      "count": 1000,
+      "mean_ms": 2.363,
+      "min_ms": 0,
+      "max_ms": 20,
+      "p50_ms": 1,
+      "p95_ms": 9,
+      "p99_ms": 16
+    },
+    "e2e": {
+      "count": 1000,
+      "mean_ms": 2.47,
+      "min_ms": 0,
+      "max_ms": 20,
+      "p50_ms": 1,
+      "p95_ms": 9,
+      "p99_ms": 16
+    },
+    "invalid_reasons": {}
+  },
+  "observer": {
+    "received": 1000,
+    "ready": true,
+    "terminals_finished": 50
+  },
+  "acceptance": {
+    "passed": true,
+    "gates": [
+      {
+        "name": "JMeter 正常退出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "未触发执行超时",
+        "actual": false,
+        "operator": "==",
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "连接采样数",
+        "actual": 50,
+        "operator": "==",
+        "expected": 50,
+        "passed": true
+      },
+      {
+        "name": "断开采样数",
+        "actual": 50,
+        "operator": "==",
+        "expected": 50,
+        "passed": true
+      },
+      {
+        "name": "业务采样数",
+        "actual": 1000,
+        "operator": "==",
+        "expected": 1000,
+        "passed": true
+      },
+      {
+        "name": "采样错误率 %",
+        "actual": 0.0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "业务请求 P95 ms",
+        "actual": 2,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "有效消息完整率 %",
+        "actual": 100.0,
+        "operator": ">=",
+        "expected": 100,
+        "passed": true
+      },
+      {
+        "name": "采集处理 P95 ms",
+        "actual": 9,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "非法消息",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "重复消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "乱序消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集队列溢出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集线程健康",
+        "actual": "",
+        "operator": "==",
+        "expected": "",
+        "passed": true
+      },
+      {
+        "name": "订阅探针就绪",
+        "actual": true,
+        "operator": "==",
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "订阅探针观测消息数",
+        "actual": 1000,
+        "operator": ">=",
+        "expected": 1000,
+        "passed": true
+      },
+      {
+        "name": "JMeter HTML 仪表盘",
+        "actual": true,
+        "operator": "==",
+        "expected": true,
+        "passed": true
+      }
+    ]
+  },
+  "message_throughput_per_second": 160.2820964898221,
+  "directory": "/Volumes/OUT/jmeter/results/runs/mqtt-concurrent-50-bd7ee27e1cc24923"
+}

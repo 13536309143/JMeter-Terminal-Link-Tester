@@ -1,0 +1,37 @@
+{
+  "jmeter": {
+    "version": "5.6.3",
+    "filename": "apache-jmeter-5.6.3.tgz",
+    "url": "https://dlcdn.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz",
+    "fallback_url": "https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz",
+    "algorithm": "sha512",
+    "digest": "5978a1a35edb5a7d428e270564ff49d2b1b257a65e17a759d259a9283fc17093e522fe46f474a043864aea6910683486340706d745fcdf3db1505fd71e689083"
+  },
+  "mqtt_plugin": {
+    "version": "2.0.2",
+    "filename": "mqtt-xmeter-2.0.2-jar-with-dependencies.jar",
+    "url": "https://github.com/emqx/mqtt-jmeter/releases/download/v2.0.2/mqtt-xmeter-2.0.2-jar-with-dependencies.jar",
+    "algorithm": "sha256",
+    "digest": "979bc63e8a026996561d6f7f255bc32aa83d298d7d0a7f51a820361dd5afb0cd"
+  },
+  "jdk": {
+    "darwin-arm64": {
+      "filename": "amazon-corretto-17-macos-aarch64.tar.gz",
+      "url": "https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-macosx-aarch64.tar.gz",
+      "algorithm": "sha256",
+      "digest": "0452dc114b8b651324f4416489861b84f3085746e4303ffa5349d6531d7f92e5"
+    },
+    "darwin-x86_64": {
+      "filename": "amazon-corretto-17-macos-x64.tar.gz",
+      "url": "https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-macosx-x64.tar.gz",
+      "algorithm": "sha256",
+      "digest": "cf269b31d6b987b16cf8acf3ce20aaee561858d4d424c482e686d783c63ef2d4"
+    },
+    "windows-amd64": {
+      "filename": "amazon-corretto-17-windows-x64.zip",
+      "url": "https://corretto.aws/downloads/resources/17.0.20.12.1/amazon-corretto-17.0.20.12.1-windows-x64-jdk.zip",
+      "algorithm": "sha256",
+      "digest": "1ac8d9dc48b170684ac6223113f524325bd842d14ed74dac28927f8165cffd3a"
+    }
+  }
+}

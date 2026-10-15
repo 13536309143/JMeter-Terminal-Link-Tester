@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jmeter-link-tester"
+version = "1.0.0"
+description = "JMeter Terminal & Link Tester for MQTT, TCP, UDP and HTTP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["paho-mqtt==2.1.0", "PyYAML==6.0.2", "psutil==7.2.2"]
+
+[project.optional-dependencies]
+demo = ["amqtt==0.11.3"]
+
+[project.scripts]
+linklab = "linklab.cli:main"
+jmeter-link-tester = "linklab.production_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+linklab = ["assets/*.groovy"]

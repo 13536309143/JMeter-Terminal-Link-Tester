@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:32.053+00:00", "stage": "preparing", "detail": "run_id=c203d48fa1984dda"}
+{"time": "2026-10-15T06:19:32.054+00:00", "stage": "running", "detail": "启动 JMeter，终端数 50，预期消息 1000"}
+{"time": "2026-10-15T06:19:37.189+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:37.214+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-concurrent-50-c203d48fa1984dda/report.html"}

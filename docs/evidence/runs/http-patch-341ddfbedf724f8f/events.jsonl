@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:57.239+00:00", "stage": "preparing", "detail": "run_id=341ddfbedf724f8f"}
+{"time": "2026-10-15T06:19:57.241+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:19:59.687+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:19:59.694+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-patch-341ddfbedf724f8f/report.html"}

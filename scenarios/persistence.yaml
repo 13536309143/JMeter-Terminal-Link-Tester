@@ -1,0 +1,8 @@
+version: 1
+name: persistence-chain
+description: 通过 SQLite 提交后的 MQTT 回执验证采集落库链路
+broker:
+  host: 127.0.0.1
+  port: 1883
+collection:
+  topic_stage: persisted

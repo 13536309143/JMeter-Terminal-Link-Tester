@@ -1,0 +1,11 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+linklab text eol=lf
+jmeter text eol=lf
+jmeter-link-tester text eol=lf
+*.command text eol=lf
+*.cmd text eol=crlf
+*.sqlite3 binary
+docs/evidence/** -text
+source/** -text

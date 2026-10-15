@@ -1,0 +1,16 @@
+version: 1
+name: http-baseline
+protocol: http
+http:
+  host: 127.0.0.1
+  port: 8080
+  path: /telemetry
+  method: POST
+  expected_status: 200
+  connect_timeout_ms: 3000
+  response_timeout_ms: 1000
+load:
+  terminals: 5
+  messages_per_terminal: 10
+  ramp_up_seconds: 1
+  interval_ms: 100

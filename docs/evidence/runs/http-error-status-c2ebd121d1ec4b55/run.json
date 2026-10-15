@@ -1,0 +1,7 @@
+{
+  "run_id": "c2ebd121d1ec4b55",
+  "scenario_name": "http-error-status",
+  "started_at": "2026-10-15T06:20:02.486+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/http-error-status-c2ebd121d1ec4b55"
+}

@@ -1,0 +1,45 @@
+name: cross-platform-verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+        python: ['3.11', '3.12']
+        include:
+          - os: macos-latest
+            python_executable: .venv/bin/python
+          - os: windows-latest
+            python_executable: .venv/Scripts/python.exe
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Bootstrap pinned tools
+        run: python scripts/bootstrap.py
+      - name: Unit tests
+        run: ${{ matrix.python_executable }} -m unittest discover -s tests -v
+      - name: JMeter MQTT integration
+        run: ${{ matrix.python_executable }} -m unittest discover -s tests -p test_integration.py -v
+        env:
+          LINKLAB_INTEGRATION: '1'
+      - name: Preserve evidence
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-${{ matrix.os }}-${{ matrix.python }}
+          path: |
+            results/
+            logs/

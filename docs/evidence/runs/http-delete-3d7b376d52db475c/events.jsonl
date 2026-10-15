@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:19:59.867+00:00", "stage": "preparing", "detail": "run_id=3d7b376d52db475c"}
+{"time": "2026-10-15T06:19:59.869+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 12"}
+{"time": "2026-10-15T06:20:02.307+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:20:02.312+00:00", "stage": "passed", "detail": "报告: /Volumes/OUT/jmeter/results/runs/http-delete-3d7b376d52db475c/report.html"}

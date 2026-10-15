@@ -1,0 +1,14 @@
+version: 1
+name: tcp-baseline
+protocol: tcp
+description: UTF-8 JSON 按行分帧 TCP 请求响应基线
+network:
+  host: 127.0.0.1
+  port: 9000
+  connect_timeout_ms: 3000
+  response_timeout_ms: 1000
+load:
+  terminals: 5
+  messages_per_terminal: 10
+  ramp_up_seconds: 1
+  interval_ms: 100

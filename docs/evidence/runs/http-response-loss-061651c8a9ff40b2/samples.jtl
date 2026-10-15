@@ -1,0 +1,49 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792045183717,13,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56797/telemetry,13,0,11
+1792045183717,13,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56797/telemetry,13,0,11
+1792045183785,1003,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0
+1792045183785,1003,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0
+1792045184811,1,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56797/telemetry,1,0,0
+1792045184810,2,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56797/telemetry,2,0,1
+1792045184828,1001,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0
+1792045184828,1002,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0
+1792045185846,2,HTTP Request,200,OK,HTTP 参数化终端 1-2,text,true,,389,427,2,2,http://127.0.0.1:56797/telemetry,2,0,2
+1792045185850,1,HTTP Request,200,OK,HTTP 参数化终端 1-1,text,true,,383,421,2,2,http://127.0.0.1:56797/telemetry,1,0,1
+1792045185867,1001,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0
+1792045185867,1001,HTTP Request,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,HTTP 参数化终端 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",2677,0,2,2,http://127.0.0.1:56797/telemetry,0,0,0

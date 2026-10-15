@@ -1,0 +1,7 @@
+{
+  "run_id": "22e11df1c7ab498f",
+  "scenario_name": "udp-invalid-response",
+  "started_at": "2026-10-15T06:08:01.562+00:00",
+  "state": "failed",
+  "directory": "/Volumes/OUT/jmeter/results/runs/udp-invalid-response-22e11df1c7ab498f"
+}
