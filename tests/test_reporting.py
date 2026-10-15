@@ -25,11 +25,11 @@ class ReportingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             write_report(root, empty_result(root))
-            html = (root / "report.html").read_text()
+            html = (root / "report.html").read_text(encoding="utf-8")
             self.assertNotIn("<script>", html)
             self.assertIn("&lt;script&gt;", html)
             self.assertTrue((root / "report.md").is_file())
-            self.assertFalse(json.loads((root / "summary.json").read_text())["acceptance"]["passed"])
+            self.assertFalse(json.loads((root / "summary.json").read_text(encoding="utf-8"))["acceptance"]["passed"])
 
     def test_comparison_does_not_divide_by_zero_or_hide_protocol_change(self):
         with tempfile.TemporaryDirectory() as temporary:

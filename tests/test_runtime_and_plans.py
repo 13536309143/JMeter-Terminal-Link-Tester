@@ -25,7 +25,7 @@ class RuntimeTests(unittest.TestCase):
             root = ET.parse(plan).getroot()
             self.assertTrue(root.findall(".//net.xmeter.samplers.SubSampler"))
             self.assertTrue(root.findall(".//net.xmeter.samplers.PubSampler"))
-            self.assertIn("System.getenv('LL_PASS')", plan.read_text())
+            self.assertIn("System.getenv('LL_PASS')", plan.read_text(encoding="utf-8"))
             self.assertEqual(len(devices), 5)
             self.assertTrue((Path(temporary) / "scenario.json").exists())
 
@@ -52,5 +52,5 @@ class RuntimeTests(unittest.TestCase):
 
     def test_bootstrap_lock_matches_runtime_plugin_pin(self):
         from linklab.runtime import PLUGIN_SHA256
-        lock = json.loads((ROOT / "deployments/artifacts.lock.json").read_text())
+        lock = json.loads((ROOT / "deployments/artifacts.lock.json").read_text(encoding="utf-8"))
         self.assertEqual(lock["mqtt_plugin"]["digest"], PLUGIN_SHA256)
