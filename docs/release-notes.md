@@ -1,4 +1,6 @@
-# JMeter Terminal & Link Tester v1.0.0
+# JMeter Terminal & Link Tester v1.0.1
+
+This patch includes the complete upstream Paho EDL/EPL license texts alongside the bundled dependency notices. Protocol behavior is unchanged.
 
 Portable terminal simulation and data-chain verification with **MQTT, TCP, UDP and HTTP**.
 

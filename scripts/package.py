@@ -13,7 +13,7 @@ FILES = ["README.md", "README.zh-CN.md", "jmeter-link-tester", "jmeter-link-test
 def main():
     destination = ROOT / "dist"
     destination.mkdir(exist_ok=True)
-    package = destination / "jmeter-link-tester-1.0.0-source.zip"
+    package = destination / "jmeter-link-tester-1.0.1-source.zip"
     paths = [ROOT / name for name in FILES]
     for name in DIRECTORIES:
         paths.extend(p for p in (ROOT / name).rglob("*") if p.is_file()

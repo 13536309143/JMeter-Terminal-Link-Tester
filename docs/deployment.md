@@ -15,7 +15,7 @@
 macOS：
 
 ```bash
-cd /path/to/linklab
+cd /path/to/jmeter
 python3 --version
 bash scripts/setup-macos.sh
 ./linklab doctor
@@ -28,7 +28,7 @@ bash scripts/setup-macos.sh
 Windows PowerShell：
 
 ```powershell
-cd D:\linklab
+cd D:\jmeter
 py -3 --version
 .\scripts\setup-windows.cmd
 .\linklab.cmd doctor

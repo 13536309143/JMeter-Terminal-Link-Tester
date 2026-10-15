@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jmeter-link-tester"
-version = "1.0.0"
+version = "1.0.1"
 description = "JMeter Terminal & Link Tester for MQTT, TCP, UDP and HTTP"
 readme = "README.md"
 requires-python = ">=3.11"

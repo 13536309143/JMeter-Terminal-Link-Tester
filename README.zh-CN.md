@@ -12,7 +12,7 @@
 
 ## 先运行一个实验
 
-当前 Mac 已完成安装。在项目目录执行：
+完成下方源码安装后，在项目目录执行（本次本地目录为 `/Volumes/OUT/jmeter`）：
 
 ```bash
 cd /Volumes/OUT/jmeter
@@ -62,7 +62,7 @@ cd /Volumes/OUT/jmeter
 支持 Apple Silicon 与 Intel Mac。源码解压后执行：
 
 ```bash
-cd /path/to/linklab
+cd /path/to/jmeter
 python3 --version
 bash scripts/setup-macos.sh
 ./linklab doctor
@@ -71,10 +71,10 @@ bash scripts/setup-macos.sh
 
 ### Windows
 
-支持 Windows 10/11 x64，建议使用简短目录，如 `D:\linklab`。先安装 Python 3.12，再在 PowerShell 执行：
+支持 Windows 10/11 x64，建议使用简短目录，如 `D:\jmeter`。先安装 Python 3.12，再在 PowerShell 执行：
 
 ```powershell
-cd D:\linklab
+cd D:\jmeter
 py -3 --version
 .\scripts\setup-windows.cmd
 .\linklab.cmd doctor

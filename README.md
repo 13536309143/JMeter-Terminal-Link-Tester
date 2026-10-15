@@ -14,16 +14,16 @@ Get a complete runtime from [Releases](https://github.com/13536309143/jmeter/rel
 
 | Your computer | Download |
 | --- | --- |
-| Windows x64 | `jmeter-link-tester-1.0.0-windows-x64.zip` |
-| Mac with Apple Silicon | `jmeter-link-tester-1.0.0-macos-arm64.tar.gz` |
-| Mac with Intel | `jmeter-link-tester-1.0.0-macos-x64.tar.gz` |
+| Windows x64 | `jmeter-link-tester-1.0.1-windows-x64.zip` |
+| Mac with Apple Silicon | `jmeter-link-tester-1.0.1-macos-arm64.tar.gz` |
+| Mac with Intel | `jmeter-link-tester-1.0.1-macos-x64.tar.gz` |
 
 Each runtime includes the application, Java 17, JMeter 5.6.3, and the EMQX MQTT plugin. **No separate Python or Java installation is required.** Extract the entire archive into a writable directory. Runtime attachments contain operational profiles and documentation; tests, fixtures and experimental evidence live in this repository. GitHub's automatic *Source code* archives contain the complete source tree, including tests.
 
 macOS:
 
 ```bash
-tar -xzf jmeter-link-tester-1.0.0-macos-arm64.tar.gz
+tar -xzf jmeter-link-tester-1.0.1-macos-arm64.tar.gz
 cd jmeter-link-tester
 ./jmeter-link-tester doctor
 # Edit profiles/http.json to point at your target first.
@@ -34,7 +34,7 @@ cd jmeter-link-tester
 Windows PowerShell:
 
 ```powershell
-Expand-Archive .\jmeter-link-tester-1.0.0-windows-x64.zip -DestinationPath .\tools
+Expand-Archive .\jmeter-link-tester-1.0.1-windows-x64.zip -DestinationPath .\tools
 cd .\tools\jmeter-link-tester
 .\jmeter-link-tester.exe doctor
 # Edit profiles\http.json to point at your target first.

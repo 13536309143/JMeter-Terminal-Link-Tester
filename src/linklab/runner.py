@@ -73,7 +73,7 @@ def run_scenario(scenario, workspace: Path, results_root: Path | None = None):
         args += ["-e", "-o", directory / "dashboard"]
     command = runtime.command(args)
     atomic_json(directory / "provenance.json", {"python": platform.python_version(), "os": platform.platform(),
-                "linklab_version": "1.0.0", "jmeter_home": str(runtime.jmeter_home),
+                "linklab_version": "1.0.1", "jmeter_home": str(runtime.jmeter_home),
                 "plan_sha256": sha256(plan), "scenario_sha256": sha256(directory / "scenario.json"),
                 "devices_sha256": sha256(directory / "devices.csv"), "command": command})
     collector = Collector(scenario, run_id, devices, directory / "collected.jsonl") if is_mqtt else None

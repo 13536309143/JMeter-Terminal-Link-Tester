@@ -17,7 +17,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 DEV_MODULES = ["linklab.cli", "linklab.demo_broker", "linklab.network", "linklab.http_reference", "linklab.pipeline"]
 FORBIDDEN_PARTS = {"tests", "test", "test-plans", "fixtures", "__pycache__", ".git", ".github", "evidence"}
 
@@ -112,6 +112,7 @@ def main():
                     folder = legal / dependency
                     folder.mkdir(exist_ok=True)
                     shutil.copy2(location, folder / entry.name)
+    shutil.copytree(ROOT / "deployments/licenses/paho-mqtt", legal / "paho-mqtt", dirs_exist_ok=True)
     if os.name == "nt":
         (destination / "JMeter-GUI.cmd").write_text('@echo off\r\ncd /d "%~dp0"\r\n"%~dp0jmeter-link-tester.exe" gui\r\n', encoding="ascii")
     else:
