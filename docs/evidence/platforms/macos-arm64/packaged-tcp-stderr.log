@@ -1,0 +1,4 @@
+[preparing] run_id=528ac3011cd4474c
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-tcp-528ac3011cd4474c/report.html

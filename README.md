@@ -108,7 +108,7 @@ The repository retains test code, reproducible procedures and measured evidence:
 - Each protocol's 50-terminal workload delivered **1,000/1,000 valid unique messages**, with an observed peak of **50 active terminals** on the recorded local run.
 - The extracted Mac ARM runtime passed four protocol checks and an HTTP failure check with deliberately invalid system Java/JMeter settings.
 
-These are synthetic loopback measurements, not production capacity claims. Cross-platform CI additionally checks source execution and frozen runtime operation on native Windows and Mac runners. See [test methods, environment and raw evidence](docs/experiments.md).
+These are synthetic loopback measurements, not production capacity claims. Native Windows x64, Mac ARM64 and Mac Intel runtime verification passed all five checks per platform. Source CI also passed on Windows/macOS with Python 3.11 and 3.12. See [test methods, environment and raw evidence](docs/experiments.md).
 
 ```bash
 .venv/bin/python -m unittest discover -s tests -v

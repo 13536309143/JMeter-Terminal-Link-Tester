@@ -1,0 +1,204 @@
+{
+  "run_id": "3ebb816dfd9a4979",
+  "scenario_name": "packaged-udp",
+  "started_at": "2026-10-15T06:47:07.572+00:00",
+  "finished_at": "2026-10-15T06:47:11.137+00:00",
+  "protocol": "udp",
+  "status": "passed",
+  "error": "",
+  "jmeter_exit_code": 0,
+  "wall_seconds": 3.554527957999994,
+  "expected_messages": 6,
+  "load": {
+    "terminals": 2,
+    "messages_per_terminal": 3,
+    "ramp_up_seconds": 0,
+    "interval_ms": 25
+  },
+  "faults": {
+    "invalid_every": 0,
+    "drop_every": 0,
+    "processing_delay_ms": 0,
+    "response_drop_every": 0,
+    "response_invalid_every": 0,
+    "response_wrong_id_every": 0,
+    "udp_duplicate_every": 0,
+    "udp_reorder_pairs": false,
+    "tcp_fragment_bytes": 0,
+    "tcp_close_every": 0,
+    "http_error_every": 0
+  },
+  "mqtt": {
+    "qos": 1,
+    "keepalive_seconds": 60,
+    "connect_timeout_seconds": 5,
+    "topic_prefix": "linklab/dongguan"
+  },
+  "collection_stage": "up",
+  "jmeter": {
+    "samples": 6,
+    "errors": 0,
+    "error_rate_pct": 0.0,
+    "duration_seconds": 0.317,
+    "peak_active_terminals": 2,
+    "throughput_per_second": 18.92744479495268,
+    "labels": {
+      "UDP Request": {
+        "count": 6,
+        "mean_ms": 39.166666666666664,
+        "min_ms": 0,
+        "max_ms": 119,
+        "p50_ms": 1,
+        "p95_ms": 119,
+        "p99_ms": 119,
+        "errors": 0,
+        "error_rate_pct": 0.0,
+        "received_bytes": 1356
+      }
+    },
+    "errors_by_message": {},
+    "series": [
+      {
+        "timestamp_seconds": 1792046829,
+        "samples": 6,
+        "errors": 0
+      }
+    ]
+  },
+  "collection": {
+    "expected": 6,
+    "received": 6,
+    "valid_unique": 6,
+    "missing": 0,
+    "invalid": 0,
+    "duplicates": 0,
+    "out_of_order": 0,
+    "injected_drops": 0,
+    "foreign": 0,
+    "queue_overflows": 0,
+    "worker_error": "",
+    "delivery_rate_pct": 100.0,
+    "transport": {
+      "count": 6,
+      "mean_ms": 38.166666666666664,
+      "min_ms": 0,
+      "max_ms": 114,
+      "p50_ms": 1,
+      "p95_ms": 114,
+      "p99_ms": 114
+    },
+    "e2e": {
+      "count": 6,
+      "mean_ms": 38.166666666666664,
+      "min_ms": 0,
+      "max_ms": 114,
+      "p50_ms": 1,
+      "p95_ms": 114,
+      "p99_ms": 114
+    },
+    "invalid_reasons": {}
+  },
+  "observer": {
+    "received": 0,
+    "ready": false,
+    "terminals_finished": 0
+  },
+  "acceptance": {
+    "passed": true,
+    "gates": [
+      {
+        "name": "JMeter 正常退出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "未触发执行超时",
+        "actual": false,
+        "operator": "==",
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "业务采样数",
+        "actual": 6,
+        "operator": "==",
+        "expected": 6,
+        "passed": true
+      },
+      {
+        "name": "采样错误率 %",
+        "actual": 0.0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "业务请求 P95 ms",
+        "actual": 119,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "有效消息完整率 %",
+        "actual": 100.0,
+        "operator": ">=",
+        "expected": 100,
+        "passed": true
+      },
+      {
+        "name": "采集处理 P95 ms",
+        "actual": 114,
+        "operator": "<=",
+        "expected": 3000,
+        "passed": true
+      },
+      {
+        "name": "非法消息",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "重复消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "乱序消息",
+        "actual": 0,
+        "operator": "<=",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集队列溢出",
+        "actual": 0,
+        "operator": "==",
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "采集线程健康",
+        "actual": "",
+        "operator": "==",
+        "expected": "",
+        "passed": true
+      },
+      {
+        "name": "JMeter HTML 仪表盘",
+        "actual": true,
+        "operator": "==",
+        "expected": true,
+        "passed": true
+      }
+    ]
+  },
+  "message_throughput_per_second": 18.92744479495268,
+  "directory": "/Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-udp-3ebb816dfd9a4979"
+}

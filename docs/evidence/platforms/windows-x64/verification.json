@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "protocol": "mqtt",
+      "negative": false,
+      "passed": true,
+      "valid_messages": 6
+    },
+    {
+      "protocol": "tcp",
+      "negative": false,
+      "passed": true,
+      "valid_messages": 6
+    },
+    {
+      "protocol": "udp",
+      "negative": false,
+      "passed": true,
+      "valid_messages": 6
+    },
+    {
+      "protocol": "http",
+      "negative": false,
+      "passed": true,
+      "valid_messages": 6
+    },
+    {
+      "protocol": "http",
+      "negative": true,
+      "passed": true,
+      "valid_messages": 4
+    }
+  ],
+  "platform": "win32"
+}

@@ -1,0 +1,4 @@
+[preparing] run_id=0893c977c34846ac
+[running] 启动 JMeter，终端数 2，预期消息 6
+[draining] 收尾采集与原始证据落盘
+[passed] 报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-http-0893c977c34846ac/report.html

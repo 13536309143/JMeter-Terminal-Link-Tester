@@ -1,0 +1,44 @@
+{
+  "release": "https://github.com/13536309143/jmeter/releases/tag/v1.0.1",
+  "tag": "v1.0.1",
+  "source_commit": "20746bccc0cbafebc85b0f87df7f6ec46c516d73",
+  "passed": true,
+  "assets": [
+    {
+      "name": "jmeter-link-tester-1.0.1-macos-arm64.tar.gz",
+      "size": 153651779,
+      "sha256": "e85e22f601f036b9121b53644ea658db606eede0286beec201e61a4b8bc67a64",
+      "archive_entries": 1387,
+      "content_audit_passed": true
+    },
+    {
+      "name": "jmeter-link-tester-1.0.1-macos-arm64.tar.gz.sha256",
+      "size": 110,
+      "sha256": "219bf73acc2abc6b0389e37f32dbbd6cb85a36b2a424015afb38a390226e99ec"
+    },
+    {
+      "name": "jmeter-link-tester-1.0.1-macos-x64.tar.gz",
+      "size": 155235206,
+      "sha256": "1bda559f1d1a535331971c9581fda530a6a30a2b527d2fdbb8cab41316f17133",
+      "archive_entries": 1386,
+      "content_audit_passed": true
+    },
+    {
+      "name": "jmeter-link-tester-1.0.1-macos-x64.tar.gz.sha256",
+      "size": 108,
+      "sha256": "5e362b46c15eb959c33fe8a247ddb7db783f94660e8019c4af5a35d63c6d78a3"
+    },
+    {
+      "name": "jmeter-link-tester-1.0.1-windows-x64.zip",
+      "size": 156081124,
+      "sha256": "593cc59eb1ea15cb7c6ea01d30335b7da94c8a5ee45e3d9c5586009678b0bc3b",
+      "archive_entries": 1434,
+      "content_audit_passed": true
+    },
+    {
+      "name": "jmeter-link-tester-1.0.1-windows-x64.zip.sha256",
+      "size": 108,
+      "sha256": "b2047aaad65a7251653726180761356d56591cbed4d389e1ee765080538b3b48"
+    }
+  ]
+}

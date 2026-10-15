@@ -1,0 +1,4 @@
+{"time": "2026-10-15T06:49:28.537+00:00", "stage": "preparing", "detail": "run_id=1f3310e5965745eb"}
+{"time": "2026-10-15T06:49:28.585+00:00", "stage": "running", "detail": "启动 JMeter，终端数 2，预期消息 6"}
+{"time": "2026-10-15T06:49:41.586+00:00", "stage": "draining", "detail": "收尾采集与原始证据落盘"}
+{"time": "2026-10-15T06:49:41.598+00:00", "stage": "passed", "detail": "报告: /Users/runner/work/jmeter/jmeter/results/release-verification/runs/packaged-tcp-1f3310e5965745eb/report.html"}

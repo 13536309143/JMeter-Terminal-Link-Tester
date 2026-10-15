@@ -157,7 +157,7 @@ $env:LINKLAB_INTEGRATION = "1"
 
 故障场景的业务验收应为“未通过”；矩阵检查缺失、非法、重复、乱序或超限信号是否符合预期，符合才算实验通过。50 终端实验使用 1 秒 Ramp-up、每终端 20 条消息，并检查**实际峰值活跃终端数达到 50**。
 
-本机环境、参数、实测结果与验证限制见[实验报告](docs/experiments.md)。Windows/macOS CI 工作流已提供，跨平台发行流水线在 Windows、macOS ARM 与 Intel 上验证便携应用，结果保存在 GitHub Actions。
+本机环境、参数、实测结果与验证限制见[实验报告](docs/experiments.md)。Windows/macOS 源码 CI 已在 Python 3.11、3.12 上通过。跨平台发行流水线在 Windows x64、macOS ARM 与 Intel 上分别验证便携应用，每平台 5 项检查通过；证据同时保存在仓库和 GitHub Actions。
 
 ## 报告与结果对比
 

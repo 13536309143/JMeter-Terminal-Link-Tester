@@ -1,0 +1,7 @@
+{
+  "run_id": "49db9e7961af4573",
+  "scenario_name": "packaged-http-error",
+  "started_at": "2026-10-15T06:48:00.242+00:00",
+  "state": "failed",
+  "directory": "D:\\a\\jmeter\\jmeter\\results\\release-verification\\runs\\packaged-http-error-49db9e7961af4573"
+}

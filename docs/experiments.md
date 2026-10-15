@@ -87,6 +87,31 @@ Windows 将解释器替换为 `.venv\Scripts\python.exe`、平台目录替换为
 
 [发布流水线](../.github/workflows/release.yml)在 Windows x64、Mac ARM 和 Mac Intel 原生 runner 上分别构建、审计和执行同样的 5 项验证，通过后才上传运行包到 Release；每个平台完整证据保存在对应 Actions 的 `verification-*` artifact。本地历史证据不替代跨平台流水线的实际状态。
 
+## 跨平台发行验收记录
+
+源码 CI 在 Windows/macOS × Python 3.11/3.12 共 4 个原生环境通过，[状态快照](evidence/source-ci.json)关联到发布代码提交。便携发行验收每平台包含四协议正向运行和 HTTP 错误状态反向运行，共 15 项：
+
+| 平台 | 检查数 | 结果与原始运行记录 |
+| --- | ---: | --- |
+| Windows x64 | 5 | [verification.json](evidence/platforms/windows-x64/verification.json) · [运行证据](evidence/platforms/windows-x64/runs/) |
+| Mac Apple Silicon | 5 | [verification.json](evidence/platforms/macos-arm64/verification.json) · [运行证据](evidence/platforms/macos-arm64/runs/) |
+| Mac Intel | 5 | [verification.json](evidence/platforms/macos-x64/verification.json) · [运行证据](evidence/platforms/macos-x64/runs/) |
+
+[原生发行流水线](https://github.com/13536309143/jmeter/actions/runs/38694408421)将证据保存在 Actions；本仓库另存各平台配置、JMX、JTL、响应 JSONL、日志和门禁结果，避免仅依赖 artifact 保留期。每个平台的 `CI.json` 记录代码提交和 artifact ID。与本机矩阵相同，仅省略生成的 JMeter dashboard 静态目录。
+
+已发布附件的下载、SHA-256 与内容审计结果见 [published-release.json](evidence/published-release.json)。运行压缩包包含四种协议配置及运行环境，不含项目测试目录、参考服务、实验场景和实验记录。GitHub 自动生成的源码附件保留测试。
+
+下载后的本地校验：
+
+```bash
+shasum -a 256 -c jmeter-link-tester-1.0.1-macos-arm64.tar.gz.sha256
+```
+
+```powershell
+Get-FileHash .\jmeter-link-tester-1.0.1-windows-x64.zip -Algorithm SHA256
+Get-Content .\jmeter-link-tester-1.0.1-windows-x64.zip.sha256
+```
+
 ## 限制与现场实验建议
 
 当前测量没有外部网络、真实设备或生产 Broker 干扰；未进行长期稳定性、TLS、分布式压测或硬件承载极限验收。Docker 路径在本机未实跑。现场复测应固定机器与版本、隔离负载发生器和被测服务、校准时钟，逐级增加负载并保存服务端监控。跨机器 MQTT 时间戳延迟依赖时钟同步；TCP/UDP/HTTP 当前值为带处理时间的响应往返观测。负向故障属于显式参考服务实验，不应在现场误配置启用。
